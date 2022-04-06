@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.325275">
+<testcase classname="Stacked Invest Dashboard" name="All time values are displayed" time="9.325275">
+<system-out><![CDATA[Given a user is navigated to the stacked invest dashboard page..............passed
+Then the All Time drop down values "YTD","1Y","6M","3M",and "1M" are displayed.passed
+]]></system-out>
+</testcase>
+</testsuite>

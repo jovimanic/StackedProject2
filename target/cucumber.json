@@ -1,0 +1,97 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-03-31T23:19:32.180Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9224526083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "All time values are displayed",
+        "description": "",
+        "id": "stacked-invest-dashboard;all-time-values-are-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 79845625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4481458,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "a user is navigated to the stacked invest dashboard page",
+            "match": {
+              "location": "DashboardSteps.a_user_is_navigated_to_the_stacked_invest_dashboard_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14602625,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the All Time drop down values \"YTD\",\"1Y\",\"6M\",\"3M\",and \"1M\" are displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"YTD\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"1Y\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"6M\"",
+                  "offset": 41
+                },
+                {
+                  "val": "\"3M\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"1M\"",
+                  "offset": 55
+                }
+              ],
+              "location": "DashboardSteps.the_All_Time_drop_down_values_and_are_displayed(String,String,String,String,String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Stacked Invest Dashboard",
+    "description": "",
+    "id": "stacked-invest-dashboard",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Dashboard.feature",
+    "tags": []
+  }
+]
