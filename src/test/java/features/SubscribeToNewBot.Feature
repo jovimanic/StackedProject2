@@ -1,4 +1,6 @@
+
 Feature: Subscribe to new Bot
+
 
   Scenario: User should be able to subscribe to new Bot
     Given User is logged in

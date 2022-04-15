@@ -4,16 +4,13 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
-import pages.DashboardPage;
-import pages.LoginPage;
-import pages.SeeAllExchangesPage;
 import utils.ConfigReader;
 import utils.WebDriverUtils;
 
+import static steps.PageInitializer.*;
+
 public class stk2361Steps {
-    LoginPage loginPage = new LoginPage();
-    DashboardPage dashboardPage = new DashboardPage();
-    SeeAllExchangesPage seeAllExchangesPage = new SeeAllExchangesPage();
+
 
     @Given("Valid user is logged in")
     public void valid_user_is_logged_in() throws InterruptedException {
@@ -23,6 +20,7 @@ public class stk2361Steps {
         loginPage.captchaBox.sendKeys("");
         Thread.sleep(15000);
         loginPage.continueButton.click();
+        Thread.sleep(2000);
         Assert.assertEquals("Dashboard | Stacked", WebDriverUtils.driver.getTitle());
     }
 

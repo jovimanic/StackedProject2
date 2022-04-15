@@ -3,20 +3,16 @@ package steps;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import pages.BotsPage;
-import pages.DashboardPage;
-import pages.LoginPage;
 import pages.StackedAutomatedTestBotPage;
 import utils.ConfigReader;
 import utils.WebDriverUtils;
 
+import static steps.PageInitializer.*;
+
 public class SubscribeToNewBotSteps {
-    LoginPage loginPage = new LoginPage();
-    DashboardPage dashPage = new DashboardPage();
-    BotsPage botsPage = new BotsPage();
+
     StackedAutomatedTestBotPage stackedAutomatedTestBotPage = new StackedAutomatedTestBotPage();
     @Given("User is logged in")
     public void user_is_logged_in() throws InterruptedException {

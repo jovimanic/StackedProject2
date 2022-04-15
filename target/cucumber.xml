@@ -1,7 +1,62 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="9.325275">
-<testcase classname="Stacked Invest Dashboard" name="All time values are displayed" time="9.325275">
-<system-out><![CDATA[Given a user is navigated to the stacked invest dashboard page..............passed
-Then the All Time drop down values "YTD","1Y","6M","3M",and "1M" are displayed.passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="270.241608">
+<testcase classname="Exchange list and exchange connect process" name="New user should be able to see coinbase card to connect to from dashboard" time="47.052063">
+<system-out><![CDATA[Given Valid user is logged in...............................................passed
+And Click the right > button................................................passed
+And Click the left < button.................................................passed
+And Click the > button until it disappears..................................passed
+And Click the See All Exchanges card........................................passed
+Then Click the Dashboard link...............................................passed
+And Click the Coinbase card.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Exchange list and exchange connect process" name="New user should be able to see FTX card to connect to from dashboard" time="44.366606">
+<system-out><![CDATA[Given Valid user is logged in...............................................passed
+And Click the right > button................................................passed
+And Click the left < button.................................................passed
+And Click the > button until it disappears..................................passed
+And Click the See All Exchanges card........................................passed
+Then Click the Dashboard link...............................................passed
+And Click the FTX card......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Exchange list and exchange connect process" name="New user should be able to see FTX US card to connect to from dashboard" time="45.667179">
+<system-out><![CDATA[Given Valid user is logged in...............................................passed
+And Click the right > button................................................passed
+And Click the left < button.................................................passed
+And Click the > button until it disappears..................................passed
+And Click the See All Exchanges card........................................passed
+Then Click the Dashboard link...............................................passed
+And Click the FTX US card...................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Exchange list and exchange connect process" name="New user should be able to see Binance card to connect to from dashboard" time="43.660024">
+<system-out><![CDATA[Given Valid user is logged in...............................................passed
+And Click the right > button................................................passed
+And Click the left < button.................................................passed
+And Click the > button until it disappears..................................passed
+And Click the See All Exchanges card........................................passed
+Then Click the Dashboard link...............................................passed
+And Click the Binance card..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Exchange list and exchange connect process" name="New user should be able to see Bybit card to connect to from dashboard" time="46.245545">
+<system-out><![CDATA[Given Valid user is logged in...............................................passed
+And Click the right > button................................................passed
+And Click the left < button.................................................passed
+And Click the > button until it disappears..................................passed
+And Click the See All Exchanges card........................................passed
+Then Click the Dashboard link...............................................passed
+And Click the Bybit card....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Exchange list and exchange connect process" name="New user should be able to see KuCoin card to connect to from dashboard" time="43.250191">
+<system-out><![CDATA[Given Valid user is logged in...............................................passed
+And Click the right > button................................................passed
+And Click the left < button.................................................passed
+And Click the > button until it disappears..................................passed
+And Click the See All Exchanges card........................................passed
+Then Click the Dashboard link...............................................passed
+And Click the KuCoin card...................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
