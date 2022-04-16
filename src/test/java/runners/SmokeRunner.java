@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         , "json:target/cucumber.json"
         , "junit:target/cucumber.xml"
         , "rerun:target/failed.txt","pretty"}
-        , features="src/test/java/features/Dashboard.feature"
+        , features="src/test/java/features/stk2361.feature"
         , glue="steps"
         , tags="@smoke"
         , dryRun = false
@@ -21,5 +21,5 @@ import org.junit.runner.RunWith;
         , strict = true
 )
 
-public class DashboardSmokeRunner {
+public class SmokeRunner {
 }

@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2022-03-31T23:19:32.180Z",
+        "start_timestamp": "2022-04-15T22:09:23.225Z",
         "before": [
           {
             "result": {
-              "duration": 9224526083,
+              "duration": 15322474292,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 5,
-        "name": "All time values are displayed",
+        "line": 4,
+        "name": "New user should be able to see coinbase card to connect to from dashboard",
         "description": "",
-        "id": "stacked-invest-dashboard;all-time-values-are-displayed",
+        "id": "exchange-list-and-exchange-connect-process;new-user-should-be-able-to-see-coinbase-card-to-connect-to-from-dashboard",
         "after": [
           {
             "result": {
-              "duration": 79845625,
+              "duration": 96732375,
               "status": "passed"
             },
             "match": {
@@ -35,49 +35,697 @@
         "steps": [
           {
             "result": {
-              "duration": 4481458,
+              "duration": 27689684959,
               "status": "passed"
             },
-            "line": 6,
-            "name": "a user is navigated to the stacked invest dashboard page",
+            "line": 5,
+            "name": "Valid user is logged in",
             "match": {
-              "location": "DashboardSteps.a_user_is_navigated_to_the_stacked_invest_dashboard_page()"
+              "location": "stk2361Steps.valid_user_is_logged_in()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 14602625,
+              "duration": 1062553500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click the right \u003e button",
+            "match": {
+              "location": "stk2361Steps.clickTheRightButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88753541,
               "status": "passed"
             },
             "line": 7,
-            "name": "the All Time drop down values \"YTD\",\"1Y\",\"6M\",\"3M\",and \"1M\" are displayed",
+            "name": "Click the left \u003c button",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"YTD\"",
-                  "offset": 30
-                },
-                {
-                  "val": "\"1Y\"",
-                  "offset": 36
-                },
-                {
-                  "val": "\"6M\"",
-                  "offset": 41
-                },
-                {
-                  "val": "\"3M\"",
-                  "offset": 46
-                },
-                {
-                  "val": "\"1M\"",
-                  "offset": 55
-                }
-              ],
-              "location": "DashboardSteps.the_All_Time_drop_down_values_and_are_displayed(String,String,String,String,String)"
+              "location": "stk2361Steps.clickTheLeftButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86814167,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click the \u003e button until it disappears",
+            "match": {
+              "location": "stk2361Steps.click_the_button_until_it_disappears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1117496625,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click the See All Exchanges card",
+            "match": {
+              "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 568739417,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click the Dashboard link",
+            "match": {
+              "location": "stk2361Steps.click_the_Dashboard_link()"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1015893833,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click the Coinbase card",
+            "match": {
+              "location": "stk2361Steps.click_the_Coinbase_card()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-15T22:10:10.279Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11555996041,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "New user should be able to see FTX card to connect to from dashboard",
+        "description": "",
+        "id": "exchange-list-and-exchange-connect-process;new-user-should-be-able-to-see-ftx-card-to-connect-to-from-dashboard",
+        "after": [
+          {
+            "result": {
+              "duration": 469745375,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28142077875,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Valid user is logged in",
+            "match": {
+              "location": "stk2361Steps.valid_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1280183292,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click the right \u003e button",
+            "match": {
+              "location": "stk2361Steps.clickTheRightButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104927291,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click the left \u003c button",
+            "match": {
+              "location": "stk2361Steps.clickTheLeftButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63669333,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click the \u003e button until it disappears",
+            "match": {
+              "location": "stk2361Steps.click_the_button_until_it_disappears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1185115125,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Click the See All Exchanges card",
+            "match": {
+              "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 571127667,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click the Dashboard link",
+            "match": {
+              "location": "stk2361Steps.click_the_Dashboard_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 993295041,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Click the FTX card",
+            "match": {
+              "location": "stk2361Steps.click_the_FTX_card()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-15T22:10:54.646Z",
+        "before": [
+          {
+            "result": {
+              "duration": 13057621792,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "New user should be able to see FTX US card to connect to from dashboard",
+        "description": "",
+        "id": "exchange-list-and-exchange-connect-process;new-user-should-be-able-to-see-ftx-us-card-to-connect-to-from-dashboard",
+        "after": [
+          {
+            "result": {
+              "duration": 94123625,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28467706834,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "Valid user is logged in",
+            "match": {
+              "location": "stk2361Steps.valid_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1179280208,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Click the right \u003e button",
+            "match": {
+              "location": "stk2361Steps.clickTheRightButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68084000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Click the left \u003c button",
+            "match": {
+              "location": "stk2361Steps.clickTheLeftButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90648875,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Click the \u003e button until it disappears",
+            "match": {
+              "location": "stk2361Steps.click_the_button_until_it_disappears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1150053500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "Click the See All Exchanges card",
+            "match": {
+              "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 467720584,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Click the Dashboard link",
+            "match": {
+              "location": "stk2361Steps.click_the_Dashboard_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1091381708,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "Click the FTX US card",
+            "match": {
+              "location": "stk2361Steps.click_the_FTX_US_card()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-15T22:11:40.314Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12936827750,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "New user should be able to see Binance card to connect to from dashboard",
+        "description": "",
+        "id": "exchange-list-and-exchange-connect-process;new-user-should-be-able-to-see-binance-card-to-connect-to-from-dashboard",
+        "after": [
+          {
+            "result": {
+              "duration": 96092166,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 26834129667,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Valid user is logged in",
+            "match": {
+              "location": "stk2361Steps.valid_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1069179916,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click the right \u003e button",
+            "match": {
+              "location": "stk2361Steps.clickTheRightButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60500792,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click the left \u003c button",
+            "match": {
+              "location": "stk2361Steps.clickTheLeftButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62362333,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Click the \u003e button until it disappears",
+            "match": {
+              "location": "stk2361Steps.click_the_button_until_it_disappears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1170804750,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Click the See All Exchanges card",
+            "match": {
+              "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 361126000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Click the Dashboard link",
+            "match": {
+              "location": "stk2361Steps.click_the_Dashboard_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1067994625,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Click the Binance card",
+            "match": {
+              "location": "stk2361Steps.click_the_Binance_card()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-15T22:12:23.975Z",
+        "before": [
+          {
+            "result": {
+              "duration": 14594050583,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 44,
+        "name": "New user should be able to see Bybit card to connect to from dashboard",
+        "description": "",
+        "id": "exchange-list-and-exchange-connect-process;new-user-should-be-able-to-see-bybit-card-to-connect-to-from-dashboard",
+        "after": [
+          {
+            "result": {
+              "duration": 95568083,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27537926042,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Valid user is logged in",
+            "match": {
+              "location": "stk2361Steps.valid_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1054754083,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Click the right \u003e button",
+            "match": {
+              "location": "stk2361Steps.clickTheRightButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78056000,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Click the left \u003c button",
+            "match": {
+              "location": "stk2361Steps.clickTheLeftButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 61526417,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "Click the \u003e button until it disappears",
+            "match": {
+              "location": "stk2361Steps.click_the_button_until_it_disappears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1176556834,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "Click the See All Exchanges card",
+            "match": {
+              "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 514159000,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "Click the Dashboard link",
+            "match": {
+              "location": "stk2361Steps.click_the_Dashboard_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1132284125,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Click the Bybit card",
+            "match": {
+              "location": "stk2361Steps.click_the_Bybit_card()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-15T22:13:10.222Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11317629542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.start()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "New user should be able to see KuCoin card to connect to from dashboard",
+        "description": "",
+        "id": "exchange-list-and-exchange-connect-process;new-user-should-be-able-to-see-kucoin-card-to-connect-to-from-dashboard",
+        "after": [
+          {
+            "result": {
+              "duration": 94185125,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.end()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27921130625,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "Valid user is logged in",
+            "match": {
+              "location": "stk2361Steps.valid_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1152710750,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "Click the right \u003e button",
+            "match": {
+              "location": "stk2361Steps.clickTheRightButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63926375,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "Click the left \u003c button",
+            "match": {
+              "location": "stk2361Steps.clickTheLeftButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87169542,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "Click the \u003e button until it disappears",
+            "match": {
+              "location": "stk2361Steps.click_the_button_until_it_disappears()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1118982833,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "Click the See All Exchanges card",
+            "match": {
+              "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 456814250,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "Click the Dashboard link",
+            "match": {
+              "location": "stk2361Steps.click_the_Dashboard_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1036874417,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "Click the KuCoin card",
+            "match": {
+              "location": "stk2361Steps.click_the_KuCoin_card()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -87,11 +735,20 @@
         ]
       }
     ],
-    "name": "Stacked Invest Dashboard",
+    "name": "Exchange list and exchange connect process",
     "description": "",
-    "id": "stacked-invest-dashboard",
+    "id": "exchange-list-and-exchange-connect-process",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Dashboard.feature",
-    "tags": []
+    "uri": "file:src/test/java/features/stk2361.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
   }
 ]

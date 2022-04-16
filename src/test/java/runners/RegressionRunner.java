@@ -14,12 +14,13 @@ import org.junit.runner.RunWith;
         , "junit:target/cucumber.xml"
         , "rerun:target/failed.txt","pretty"}
         , features="src/test/java/features/Dashboard.feature"
-        , glue="steps"
-        , tags="@progression"
+        , glue="src/test/java/steps"
+        , tags="@regression"
         , dryRun = false
         , monochrome=true
         , strict = true
 )
 
-public class DashboardProgressionRunner {
+public class RegressionRunner {
+
 }
