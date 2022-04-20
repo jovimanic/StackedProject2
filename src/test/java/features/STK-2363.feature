@@ -18,9 +18,7 @@ Feature: Verifying empty states for products area
     When a user is on the dashboard page and clicks on the Explore Stacks button
     Then the stacks tab of the market place is opened and the "Standard Stacks" text displays
 
-#Then a static list of cards at the bottom of the Stacks tab displays the top seven stacks "smartstack-v0-562","smartstack-v0-503","NFT Gaming","smartstack-v0-445","smartstack-v0-386","smartstack-v0-357","Bitpool 5"
-
-  @STK-2363/2473 @progression
+  @STK-2363/2473 @smoke
   #[STK-2363/2473] Empty state - Products area - Lending
     #https://www.notion.so/stackedinvest/fdc6a83d09534001ba02cfe734be706a?v=22b448c0a37f494587499a357b0caf23
   Scenario: A user with no Lending configured will see the Lending tab as an empty state
@@ -30,11 +28,20 @@ Feature: Verifying empty states for products area
     When a user clicks on the Explore Lending button
     Then the lending tab of the market place is opened and the "Connect FTX exchange" button displays
 
-  @STK-2363/2474 @progression
+  @STK-2363/2474 @smoke
   #[STK-2363/2474] Empty state - Products area - Staking
     #https://www.notion.so/stackedinvest/146eadfc534645809c28fe3fa38b1029?v=b8103eb9b8ff4628ab397f1a41df9bb2
   Scenario: A user with no Lending configured will see the Lending tab as an empty state
+    When a user is on the dashboard and clicks the Staking tab
+    Then an empty Staking tab state and the "Explore Staking" button displays
+    When a user clicks the Explore Staking button
+    Then the staking tab of the market place is opened and the "Connect FTX exchange" button displays
 
+  @STK-2363/2475 @progression #inprogress
+  #[STK-2363/2474] Empty state - Products area - Bots
+    #https://www.notion.so/stackedinvest/bdafd0f7781e47dcb23da86afba6c789?v=e7ddd5571b7f499388c6f5659543983c
+  Scenario: A user with no Lending configured will see the Lending tab as an empty state
+    When a user is on the dashboard and clicks the Bots tab
 
 
 
