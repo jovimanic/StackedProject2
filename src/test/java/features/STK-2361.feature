@@ -1,6 +1,9 @@
-@smoke
 Feature: Exchange list and exchange connect process
 
+  #tagged name of test case in notion.so commented before scenario
+
+
+  @smoke
   Scenario: New user should be able to see coinbase card to connect to from dashboard
     Given Valid user is logged in
     And Click the right > button
