@@ -1,23 +1,13 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/stk2361.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/STK-2363.feature");
 formatter.feature({
-  "name": "Exchange list and exchange connect process",
+  "name": "Verifying empty states for products area",
   "description": "",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@smoke"
-    }
-  ]
+  "keyword": "Feature"
 });
-formatter.scenario({
-  "name": "New user should be able to see coinbase card to connect to from dashboard",
+formatter.background({
+  "name": "",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@smoke"
-    }
-  ]
+  "keyword": "Background"
 });
 formatter.before({
   "status": "passed"
@@ -27,239 +17,70 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "stk2361Steps.valid_user_is_logged_in()"
+  "location": "LoginSteps.valid_user_is_logged_in()"
 });
 formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the right \u003e button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheRightButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the left \u003c button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheLeftButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the \u003e button until it disappears",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_button_until_it_disappears()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the See All Exchanges card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Dashboard link",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_Dashboard_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Coinbase card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_Coinbase_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "New user should be able to see FTX card to connect to from dashboard",
+  "name": "A user with no Lending configured will see the Lending tab as an empty state",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@smoke"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Valid user is logged in",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stk2361Steps.valid_user_is_logged_in()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the right \u003e button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheRightButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the left \u003c button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheLeftButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the \u003e button until it disappears",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_button_until_it_disappears()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the See All Exchanges card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Dashboard link",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_Dashboard_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the FTX card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_FTX_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "New user should be able to see FTX US card to connect to from dashboard",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
+      "name": "@STK-2363/2473"
+    },
     {
-      "name": "@smoke"
+      "name": "@progression"
     }
   ]
 });
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
-  "name": "Valid user is logged in",
-  "keyword": "Given "
+  "name": "a user is on the dashboard and clicks the Lending tab",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "stk2361Steps.valid_user_is_logged_in()"
+  "location": "LendingPageSteps.a_user_is_on_the_dashboard_and_clicks_the_Lending_tab()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Click the right \u003e button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheRightButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the left \u003c button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheLeftButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the \u003e button until it disappears",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_button_until_it_disappears()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the See All Exchanges card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Dashboard link",
+  "name": "an empty Lending tab state, an array of coins and an \"Explore Lending\" button displays",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "stk2361Steps.click_the_Dashboard_link()"
+  "location": "LendingPageSteps.an_empty_Lending_tab_state_an_array_of_coins_and_an_button_displays(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "Click the FTX US card",
-  "keyword": "And "
+  "name": "a user hovers on a coin, it\u0027s icon becomes larger and shows the current APY% that the coin has available on FTX",
+  "keyword": "When "
 });
 formatter.match({
-  "location": "stk2361Steps.click_the_FTX_US_card()"
+  "location": "LendingPageSteps.a_user_hovers_on_a_coin_it_s_icon_becomes_larger_and_shows_the_current_APY_that_the_coin_has_available_on_FTX()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "a user clicks on the Explore Lending button",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "LendingPageSteps.a_user_clicks_on_the_Explore_Lending_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "the lending tab of the market place is opened and the \"Connect FTX exchange\" button displays",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "LendingPageSteps.the_lending_tab_of_the_market_place_is_opened_and_the_button_displays(String)"
 });
 formatter.result({
   "status": "passed"
@@ -267,262 +88,9 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
-formatter.scenario({
-  "name": "New user should be able to see Binance card to connect to from dashboard",
+formatter.background({
+  "name": "",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@smoke"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Valid user is logged in",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stk2361Steps.valid_user_is_logged_in()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the right \u003e button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheRightButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the left \u003c button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheLeftButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the \u003e button until it disappears",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_button_until_it_disappears()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the See All Exchanges card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Dashboard link",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_Dashboard_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Binance card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_Binance_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "New user should be able to see Bybit card to connect to from dashboard",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@smoke"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Valid user is logged in",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stk2361Steps.valid_user_is_logged_in()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the right \u003e button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheRightButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the left \u003c button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheLeftButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the \u003e button until it disappears",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_button_until_it_disappears()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the See All Exchanges card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Dashboard link",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_Dashboard_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Bybit card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_Bybit_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "New user should be able to see KuCoin card to connect to from dashboard",
-  "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@smoke"
-    }
-  ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Valid user is logged in",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "stk2361Steps.valid_user_is_logged_in()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the right \u003e button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheRightButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the left \u003c button",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.clickTheLeftButton()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the \u003e button until it disappears",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_button_until_it_disappears()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the See All Exchanges card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_See_All_Exchanges_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the Dashboard link",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_Dashboard_link()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "Click the KuCoin card",
-  "keyword": "And "
-});
-formatter.match({
-  "location": "stk2361Steps.click_the_KuCoin_card()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
+  "keyword": "Background"
 });
 });

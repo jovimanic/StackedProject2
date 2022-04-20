@@ -1,8 +1,21 @@
 
 Feature: Stacked Invest Dashboard
 
-@smoke
-  Scenario: All time values are displayed
-    Given a user is navigated to the stacked invest dashboard page
-    Then the All Time drop down values "YTD","1Y","6M","3M",and "1M" are displayed
+    #tagged name of test case in notion.so commented before scenario
+
+  Background:
+    Given Valid user is logged in
+
+      #still in progress
+    Scenario: A user with no exchange configured will connect to an exchange
+      When a user is on the exchange page
+      And if the Safety First pop up displays then the user clicks the Remind me later button
+      And a user clicks add exchange
+      Then exchanges "AAX", "AscendEX Futures", "Binance", "Binance Futures", "Bitfinex","BitMEX", "ByBit", "Coinbase", "FTX", "FTX US", "KuCoin", "Phemex" are displayed
+
+
+
+
+
+
 

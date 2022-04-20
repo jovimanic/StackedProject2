@@ -28,8 +28,8 @@ public class SubscribeToNewBotSteps {
     @Then("Click on the robot head icon from left navigation panel")
     public void click_on_the_robot_head_icon_from_left_navigation_panel() {
         WebDriverWait wait = new WebDriverWait(WebDriverUtils.driver, 20);
-        wait.until(ExpectedConditions.elementToBeClickable(dashPage.botIcon));
-        dashPage.botIcon.click();
+        wait.until(ExpectedConditions.elementToBeClickable(dashboardPage.botIcon));
+        dashboardPage.botIcon.click();
         Assert.assertEquals("Bots | Stacked", WebDriverUtils.driver.getTitle());
     }
 
