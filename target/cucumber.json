@@ -11,8 +11,8 @@
         "steps": [
           {
             "result": {
-              "duration": 20086790042,
-              "status": "passed"
+              "duration": 51750,
+              "status": "skipped"
             },
             "line": 6,
             "name": "Valid user is logged in",
@@ -24,27 +24,27 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-20T16:32:30.075Z",
+        "start_timestamp": "2022-04-20T17:02:35.701Z",
         "before": [
           {
             "result": {
-              "duration": 17401614625,
-              "status": "passed"
+              "duration": 199583,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.start()"
             }
           }
         ],
-        "line": 36,
-        "name": "A user with no Lending configured will see the Lending tab as an empty state",
+        "line": 11,
+        "name": "A user with no Bots configured will see the Bots tab as an empty state",
         "description": "",
-        "id": "verifying-empty-states-for-products-area;a-user-with-no-lending-configured-will-see-the-lending-tab-as-an-empty-state",
+        "id": "verifying-empty-states-for-products-area;a-user-with-no-bots-configured-will-see-the-bots-tab-as-an-empty-state",
         "after": [
           {
             "result": {
-              "duration": 95240417,
-              "status": "passed"
+              "duration": 2333,
+              "status": "skipped"
             },
             "match": {
               "location": "Hooks.end()"
@@ -56,71 +56,107 @@
         "steps": [
           {
             "result": {
-              "duration": 542331583,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 37,
-            "name": "a user is on the dashboard and clicks the Staking tab",
-            "match": {
-              "location": "StakingPageSteps.a_user_is_on_the_dashboard_and_clicks_the_Staking_tab()"
-            },
+            "line": 12,
+            "name": "a user is on the dashboard and clicks the Bots tab",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6827752750,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 38,
-            "name": "an empty Staking tab state and the \"Explore Staking\" button displays",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Explore Staking\"",
-                  "offset": 35
-                }
-              ],
-              "location": "StakingPageSteps.an_empty_Staking_tab_state_and_the_button_displays(String)"
-            },
+            "line": 13,
+            "name": "a user will see bots subscribed but not yet configured, bot set up cards will display",
+            "match": {},
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 179271084,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 39,
-            "name": "a user clicks the Explore Staking button",
-            "match": {
-              "location": "StakingPageSteps.a_user_clicks_the_Explore_Staking_button()"
+            "line": 14,
+            "name": "bot set up cards will include bot name, text \"Set up your bot to start trading\", and button \"Set up\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 15,
+            "name": "a user clicks on the Set up button",
+            "match": {},
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1170883125,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 40,
-            "name": "the staking tab of the market place is opened and the \"Connect FTX exchange\" button displays",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Connect FTX exchange\"",
-                  "offset": 54
-                }
-              ],
-              "location": "StakingPageSteps.the_staking_tab_of_the_market_place_is_opened_and_the_button_displays(String)"
+            "line": 16,
+            "name": "the bot set up page displays",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
             },
+            "line": 17,
+            "name": "a user clicks on the \"View All Bots\" button text",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "a user is navigated to the Bots page and is able to view all bots available",
+            "match": {},
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@STK-2363/2474"
+            "name": "@STK-2363/2475"
           },
           {
             "name": "@progression"
+          },
+          {
+            "name": "#inprogress"
+          },
+          {
+            "name": "#need"
+          },
+          {
+            "name": "user"
+          },
+          {
+            "name": "on"
+          },
+          {
+            "name": "new"
+          },
+          {
+            "name": "dashboard"
+          },
+          {
+            "name": "with"
+          },
+          {
+            "name": "no"
+          },
+          {
+            "name": "bots"
+          },
+          {
+            "name": "to"
+          },
+          {
+            "name": "test"
           }
         ]
       }
@@ -129,7 +165,7 @@
     "description": "",
     "id": "verifying-empty-states-for-products-area",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/STK-2363.feature",
+    "uri": "file:src/test/java/features/STK-2367.feature",
     "tags": []
   }
 ]
