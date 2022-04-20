@@ -8,8 +8,10 @@ import java.util.List;
 
 import static utils.WebDriverUtils.driver;
 
-
 public class DashboardPage {
+
+    public DashboardPage() {
+        PageFactory.initElements(driver,this);}
 
     /**__________ Main Page __________*/
 
@@ -30,6 +32,9 @@ public WebElement stacksTab;
 
 @FindBy(xpath = "//div[@role='tablist']//div//div[3]")
 public WebElement lendingTab;
+
+@FindBy(xpath = "(//div[@role='tab'])[3]")
+public WebElement stakingTab;
 
 @FindBy(xpath = "//span[contains(text(), 'Explore Stacks')]")
 public WebElement exploreStacksButton;
@@ -88,11 +93,6 @@ public WebElement kuCoinCard;
 @FindBy(xpath = "//h1[.='Connect KuCoin']")
 public WebElement connectKuCoin;
 
-/**__________ Connect Exchange __________*/
-
-@FindBy(xpath = "a[@href='/wizard']//button[@type='button']")
-public WebElement connectExchangeButton;
-
 /**__________ Stacks __________*/
 
 @FindBy(xpath = "//a[contains(@href, \"/strategies/stack/\")]")
@@ -121,9 +121,6 @@ public WebElement bitpool5Stack;
 
     /**__________ Lending __________*/
 
-
-    public DashboardPage() {
-        PageFactory.initElements(driver,this);}
 }
 
 

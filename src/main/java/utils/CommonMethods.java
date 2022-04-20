@@ -4,16 +4,14 @@ package utils;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-
 import static utils.Constants.SCREENSHOT_FILEPATH;
-import static utils.WebDriverUtils.driver;
 
-public class CommonMethods {
+
+public class CommonMethods extends WebDriverUtils {
 
     /**
      * This class is to store our commonly used methods/blocks of code that

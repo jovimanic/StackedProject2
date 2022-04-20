@@ -28,7 +28,7 @@ formatter.scenario({
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@STK-2363/2473"
+      "name": "@STK-2363/2474"
     },
     {
       "name": "@progression"
@@ -36,61 +36,46 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "name": "a user is on the dashboard and clicks the Lending tab",
+  "name": "a user is on the dashboard and clicks the Staking tab",
   "keyword": "When "
 });
 formatter.match({
-  "location": "LendingPageSteps.a_user_is_on_the_dashboard_and_clicks_the_Lending_tab()"
+  "location": "StakingPageSteps.a_user_is_on_the_dashboard_and_clicks_the_Staking_tab()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "an empty Lending tab state, an array of coins and an \"Explore Lending\" button displays",
+  "name": "an empty Staking tab state and the \"Explore Staking\" button displays",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LendingPageSteps.an_empty_Lending_tab_state_an_array_of_coins_and_an_button_displays(String)"
+  "location": "StakingPageSteps.an_empty_Staking_tab_state_and_the_button_displays(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "a user hovers on a coin, it\u0027s icon becomes larger and shows the current APY% that the coin has available on FTX",
+  "name": "a user clicks the Explore Staking button",
   "keyword": "When "
 });
 formatter.match({
-  "location": "LendingPageSteps.a_user_hovers_on_a_coin_it_s_icon_becomes_larger_and_shows_the_current_APY_that_the_coin_has_available_on_FTX()"
+  "location": "StakingPageSteps.a_user_clicks_the_Explore_Staking_button()"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "a user clicks on the Explore Lending button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LendingPageSteps.a_user_clicks_on_the_Explore_Lending_button()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the lending tab of the market place is opened and the \"Connect FTX exchange\" button displays",
+  "name": "the staking tab of the market place is opened and the \"Connect FTX exchange\" button displays",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "LendingPageSteps.the_lending_tab_of_the_market_place_is_opened_and_the_button_displays(String)"
+  "location": "StakingPageSteps.the_staking_tab_of_the_market_place_is_opened_and_the_button_displays(String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.after({
   "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
 });
 });

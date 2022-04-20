@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 22829417834,
+              "duration": 20086790042,
               "status": "passed"
             },
             "line": 6,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-20T16:03:43.344Z",
+        "start_timestamp": "2022-04-20T16:32:30.075Z",
         "before": [
           {
             "result": {
-              "duration": 14223181375,
+              "duration": 17401614625,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 26,
+        "line": 36,
         "name": "A user with no Lending configured will see the Lending tab as an empty state",
         "description": "",
         "id": "verifying-empty-states-for-products-area;a-user-with-no-lending-configured-will-see-the-lending-tab-as-an-empty-state",
         "after": [
           {
             "result": {
-              "duration": 99035709,
+              "duration": 95240417,
               "status": "passed"
             },
             "match": {
@@ -56,65 +56,53 @@
         "steps": [
           {
             "result": {
-              "duration": 882233834,
+              "duration": 542331583,
               "status": "passed"
             },
-            "line": 27,
-            "name": "a user is on the dashboard and clicks the Lending tab",
+            "line": 37,
+            "name": "a user is on the dashboard and clicks the Staking tab",
             "match": {
-              "location": "LendingPageSteps.a_user_is_on_the_dashboard_and_clicks_the_Lending_tab()"
+              "location": "StakingPageSteps.a_user_is_on_the_dashboard_and_clicks_the_Staking_tab()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1218949334,
+              "duration": 6827752750,
               "status": "passed"
             },
-            "line": 28,
-            "name": "an empty Lending tab state, an array of coins and an \"Explore Lending\" button displays",
+            "line": 38,
+            "name": "an empty Staking tab state and the \"Explore Staking\" button displays",
             "match": {
               "arguments": [
                 {
-                  "val": "\"Explore Lending\"",
-                  "offset": 53
+                  "val": "\"Explore Staking\"",
+                  "offset": 35
                 }
               ],
-              "location": "LendingPageSteps.an_empty_Lending_tab_state_an_array_of_coins_and_an_button_displays(String)"
+              "location": "StakingPageSteps.an_empty_Staking_tab_state_and_the_button_displays(String)"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 9888464792,
+              "duration": 179271084,
               "status": "passed"
             },
-            "line": 29,
-            "name": "a user hovers on a coin, it\u0027s icon becomes larger and shows the current APY% that the coin has available on FTX",
+            "line": 39,
+            "name": "a user clicks the Explore Staking button",
             "match": {
-              "location": "LendingPageSteps.a_user_hovers_on_a_coin_it_s_icon_becomes_larger_and_shows_the_current_APY_that_the_coin_has_available_on_FTX()"
+              "location": "StakingPageSteps.a_user_clicks_the_Explore_Staking_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 133101583,
+              "duration": 1170883125,
               "status": "passed"
             },
-            "line": 30,
-            "name": "a user clicks on the Explore Lending button",
-            "match": {
-              "location": "LendingPageSteps.a_user_clicks_on_the_Explore_Lending_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1206247583,
-              "status": "passed"
-            },
-            "line": 31,
-            "name": "the lending tab of the market place is opened and the \"Connect FTX exchange\" button displays",
+            "line": 40,
+            "name": "the staking tab of the market place is opened and the \"Connect FTX exchange\" button displays",
             "match": {
               "arguments": [
                 {
@@ -122,37 +110,11 @@
                   "offset": 54
                 }
               ],
-              "location": "LendingPageSteps.the_lending_tab_of_the_market_place_is_opened_and_the_button_displays(String)"
+              "location": "StakingPageSteps.the_staking_tab_of_the_market_place_is_opened_and_the_button_displays(String)"
             },
             "keyword": "Then "
           }
         ],
-        "tags": [
-          {
-            "name": "@STK-2363/2473"
-          },
-          {
-            "name": "@progression"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": []
-      },
-      {
-        "start_timestamp": "2022-04-20T16:04:33.830Z",
-        "line": 36,
-        "name": "A user with no Lending configured will see the Lending tab as an empty state",
-        "description": "",
-        "id": "verifying-empty-states-for-products-area;a-user-with-no-lending-configured-will-see-the-lending-tab-as-an-empty-state",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [],
         "tags": [
           {
             "name": "@STK-2363/2474"

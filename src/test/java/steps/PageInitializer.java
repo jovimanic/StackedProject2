@@ -19,6 +19,7 @@ public class PageInitializer {
     public static SeeAllExchangesPage seeAllExchangesPage = new SeeAllExchangesPage();
     public static StacksPage stacksPage = new StacksPage();
     public static LendingPage lendingPage = new LendingPage();
+    public static StakingPage stakingPage = new StakingPage();
 
 
 

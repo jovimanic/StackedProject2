@@ -1,14 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="50.485389">
-<testcase classname="Verifying empty states for products area" name="A user with no Lending configured will see the Lending tab as an empty state" time="50.483896">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.306843">
+<testcase classname="Verifying empty states for products area" name="A user with no Lending configured will see the Lending tab as an empty state" time="46.306843">
 <system-out><![CDATA[Given Valid user is logged in...............................................passed
-When a user is on the dashboard and clicks the Lending tab..................passed
-Then an empty Lending tab state, an array of coins and an "Explore Lending" button displays.passed
-When a user hovers on a coin, it's icon becomes larger and shows the current APY% that the coin has available on FTX.passed
-When a user clicks on the Explore Lending button............................passed
-Then the lending tab of the market place is opened and the "Connect FTX exchange" button displays.passed
+When a user is on the dashboard and clicks the Staking tab..................passed
+Then an empty Staking tab state and the "Explore Staking" button displays...passed
+When a user clicks the Explore Staking button...............................passed
+Then the staking tab of the market place is opened and the "Connect FTX exchange" button displays.passed
 ]]></system-out>
-</testcase>
-<testcase classname="Verifying empty states for products area" name="A user with no Lending configured will see the Lending tab as an empty state 2" time="0.001493">
-<failure message="The scenario has no steps"/>
 </testcase>
 </testsuite>
