@@ -7,7 +7,7 @@ import java.util.Properties;
 public class ConfigReader {
 
     /**
-     * This class is to read our config.properties file
+     * This class is to read our config.properties file (date file)
      */
 
 

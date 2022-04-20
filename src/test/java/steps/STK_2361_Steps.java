@@ -4,30 +4,15 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
-import utils.ConfigReader;
 import utils.WebDriverUtils;
 
 import static steps.PageInitializer.*;
 
-public class stk2361Steps {
-
-
-    @Given("Valid user is logged in")
-    public void valid_user_is_logged_in() throws InterruptedException {
-        WebDriverUtils.driver.get(ConfigReader.getPropertyValue("url"));
-        loginPage.emailAddressBox.sendKeys(ConfigReader.getPropertyValue("username2"));
-        loginPage.passwordBox.sendKeys(ConfigReader.getPropertyValue("password2"));
-        loginPage.captchaBox.sendKeys("");
-        Thread.sleep(15000);
-        loginPage.continueButton.click();
-        Thread.sleep(2000);
-        Assert.assertEquals("Dashboard | Stacked", WebDriverUtils.driver.getTitle());
-    }
+public class STK_2361_Steps {
 
     @And("Click the right > button")
     public void clickTheRightButton() {
         dashboardPage.rightArrowButton.click();
-
     }
 
     @And("Click the left < button")

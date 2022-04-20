@@ -1,6 +1,7 @@
 
 Feature: Subscribe to new Bot
 
+    #tagged name of test case in notion.so commented before scenario
 
   Scenario: User should be able to subscribe to new Bot
     Given User is logged in

@@ -11,7 +11,6 @@ public class LoginPage {
     public LoginPage() {
         PageFactory.initElements(driver,this);}
 
-
     @FindBy (id = "username")
     public WebElement emailAddressBox;
 
