@@ -3,8 +3,7 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-
-import java.util.List;
+import utils.WebDriverUtils;
 
 import static utils.WebDriverUtils.driver;
 
@@ -47,12 +46,6 @@ public WebElement rightArrowButton;
 
 @FindBy(xpath = "//*[@id=\"app\"]/div/div[1]/main/div/div/div/div/div/div[1]/div[1]/div[2]/div/div[1]/button")
 public WebElement leftArrowButton;
-
-@FindBy(xpath = "//a[@href='/exchange']//button[@type='button']//span//span[@aria-hidden='true']//*[name()='svg']")
-public WebElement exchange;
-
-
-/**__________ Exchange Cards __________*/
 
 @FindBy(xpath = "//p[.=' See All Exchanges ']")
 public WebElement seeAllExchangesCard;
@@ -115,6 +108,27 @@ public WebElement smartstackv0386Stack;
 
 @FindBy(xpath = "//p[normalize-space()='smartstack-v0-357']")
 public WebElement smartstackv0357Stack;
+@FindBy(xpath = "//div[.='Top']")
+public WebElement topTab;
+
+@FindBy(xpath = "//span[.='REN']")
+public WebElement ren;
+
+@FindBy(xpath = "//span[.='Not supported']")
+public WebElement notSupportedNotice;
+
+@FindBy(xpath = "//span[.=' Buy AAVE']")
+public WebElement buyAAVE;
+
+@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[1]/main/div/div/div/div/div/div[1]/div[2]/div/div[2]/div/div[2]/div/div[1]/a")
+public WebElement learnMoreLink;
+
+@FindBy(xpath = "//a[.=' See more ']")
+public WebElement seeMoreTab;
+
+@FindBy(xpath = "//span[.='AAVE']")
+public WebElement aave;
+
 
 @FindBy(xpath = "//p[normalize-space()='Bitpool 5']")
 public WebElement bitpool5Stack;

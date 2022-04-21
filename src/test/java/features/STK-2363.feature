@@ -45,3 +45,4 @@ Feature: Verifying empty states for products area
     Then an empty Bots tab state and a list of the top seven bots displays
 
 
+

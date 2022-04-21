@@ -11,7 +11,11 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 26655030416,
+=======
+              "duration": 20086790042,
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
               "status": "passed"
             },
             "line": 6,
@@ -24,11 +28,19 @@
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2022-04-20T19:08:11.553Z",
         "before": [
           {
             "result": {
               "duration": 14977325459,
+=======
+        "start_timestamp": "2022-04-20T16:32:30.075Z",
+        "before": [
+          {
+            "result": {
+              "duration": 17401614625,
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
               "status": "passed"
             },
             "match": {
@@ -36,14 +48,23 @@
             }
           }
         ],
+<<<<<<< HEAD
         "line": 34,
         "name": "A user with no Staking configured will see the Staking tab as an empty state",
+=======
+        "line": 36,
+        "name": "A user with no Lending configured will see the Lending tab as an empty state",
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
         "description": "",
         "id": "verifying-empty-states-for-products-area;a-user-with-no-staking-configured-will-see-the-staking-tab-as-an-empty-state",
         "after": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 97846500,
+=======
+              "duration": 95240417,
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
               "status": "passed"
             },
             "match": {
@@ -56,10 +77,17 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1494956625,
               "status": "passed"
             },
             "line": 35,
+=======
+              "duration": 542331583,
+              "status": "passed"
+            },
+            "line": 37,
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
             "name": "a user is on the dashboard and clicks the Staking tab",
             "match": {
               "location": "StakingPageSteps.a_user_is_on_the_dashboard_and_clicks_the_Staking_tab()"
@@ -68,10 +96,17 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 1681263666,
               "status": "passed"
             },
             "line": 36,
+=======
+              "duration": 6827752750,
+              "status": "passed"
+            },
+            "line": 38,
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
             "name": "an empty Staking tab state and the \"Explore Staking\" button displays",
             "match": {
               "arguments": [
@@ -86,10 +121,17 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 68696625,
               "status": "passed"
             },
             "line": 37,
+=======
+              "duration": 179271084,
+              "status": "passed"
+            },
+            "line": 39,
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
             "name": "a user clicks the Explore Staking button",
             "match": {
               "location": "StakingPageSteps.a_user_clicks_the_Explore_Staking_button()"
@@ -98,10 +140,17 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2464240166,
               "status": "passed"
             },
             "line": 38,
+=======
+              "duration": 1170883125,
+              "status": "passed"
+            },
+            "line": 40,
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
             "name": "the staking tab of the market place is opened and the \"Connect FTX exchange\" button displays",
             "match": {
               "arguments": [
