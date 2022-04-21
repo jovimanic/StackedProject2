@@ -59,6 +59,27 @@ public WebElement kuCoinCard;
 @FindBy(xpath = "//h1[.='Connect KuCoin']")
 public WebElement connectKuCoin;
 
+@FindBy(xpath = "//div[.='Top']")
+public WebElement topTab;
+
+@FindBy(xpath = "//span[.='REN']")
+public WebElement ren;
+
+@FindBy(xpath = "//span[.='Not supported']")
+public WebElement notSupportedNotice;
+
+@FindBy(xpath = "//span[.=' Buy AAVE']")
+public WebElement buyAAVE;
+
+@FindBy(xpath = "//*[@id=\"app\"]/div[1]/div[1]/main/div/div/div/div/div/div[1]/div[2]/div/div[2]/div/div[2]/div/div[1]/a")
+public WebElement learnMoreLink;
+
+@FindBy(xpath = "//a[.=' See more ']")
+public WebElement seeMoreTab;
+
+@FindBy(xpath = "//span[.='AAVE']")
+public WebElement aave;
+
 
 
     public DashboardPage() {
