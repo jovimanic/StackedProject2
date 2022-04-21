@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.44266">
+<testcase classname="Verifying empty states for products area" name="A user with no Staking configured will see the Staking tab as an empty state" time="47.44266">
+=======
 <?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="46.306843">
 <testcase classname="Verifying empty states for products area" name="A user with no Lending configured will see the Lending tab as an empty state" time="46.306843">
+>>>>>>> c0a9098c5671d1047ab8d3f2a0138d198f72ecaa
 <system-out><![CDATA[Given Valid user is logged in...............................................passed
 When a user is on the dashboard and clicks the Staking tab..................passed
 Then an empty Staking tab state and the "Explore Staking" button displays...passed

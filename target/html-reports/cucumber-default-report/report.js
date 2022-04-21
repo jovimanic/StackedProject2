@@ -23,7 +23,7 @@ formatter.result({
   "status": "passed"
 });
 formatter.scenario({
-  "name": "A user with no Lending configured will see the Lending tab as an empty state",
+  "name": "A user with no Staking configured will see the Staking tab as an empty state",
   "description": "",
   "keyword": "Scenario",
   "tags": [
@@ -31,7 +31,7 @@ formatter.scenario({
       "name": "@STK-2363/2474"
     },
     {
-      "name": "@progression"
+      "name": "@smoke"
     }
   ]
 });
