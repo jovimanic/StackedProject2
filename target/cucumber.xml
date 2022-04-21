@@ -1,13 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.006415">
-<testcase classname="Verifying empty states for products area" name="A user with no Bots configured will see the Bots tab as an empty state" time="0.006415">
-<failure message="The scenario has pending or undefined step(s)"><![CDATA[Given Valid user is logged in...............................................skipped
-When a user is on the dashboard and clicks the Bots tab.....................undefined
-Then a user will see bots subscribed but not yet configured, bot set up cards will display.undefined
-And bot set up cards will include bot name, text "Set up your bot to start trading", and button "Set up".undefined
-When a user clicks on the Set up button.....................................undefined
-Then the bot set up page displays...........................................undefined
-When a user clicks on the "View All Bots" button text.......................undefined
-Then a user is navigated to the Bots page and is able to view all bots available.undefined
-]]></failure>
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="47.44266">
+<testcase classname="Verifying empty states for products area" name="A user with no Staking configured will see the Staking tab as an empty state" time="47.44266">
+<system-out><![CDATA[Given Valid user is logged in...............................................passed
+When a user is on the dashboard and clicks the Staking tab..................passed
+Then an empty Staking tab state and the "Explore Staking" button displays...passed
+When a user clicks the Explore Staking button...............................passed
+Then the staking tab of the market place is opened and the "Connect FTX exchange" button displays.passed
+]]></system-out>
 </testcase>
 </testsuite>

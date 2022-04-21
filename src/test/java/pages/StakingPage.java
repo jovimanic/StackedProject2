@@ -6,6 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import utils.WebDriverUtils;
 
 public class StakingPage {
+
     public StakingPage(){
         PageFactory.initElements(WebDriverUtils.driver, this);
     }

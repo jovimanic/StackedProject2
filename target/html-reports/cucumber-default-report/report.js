@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/STK-2367.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/java/features/STK-2363.feature");
 formatter.feature({
   "name": "Verifying empty states for products area",
   "description": "",
@@ -10,7 +10,7 @@ formatter.background({
   "keyword": "Background"
 });
 formatter.before({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
   "name": "Valid user is logged in",
@@ -20,111 +20,62 @@ formatter.match({
   "location": "LoginSteps.valid_user_is_logged_in()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.scenario({
-  "name": "A user with no Bots configured will see the Bots tab as an empty state",
+  "name": "A user with no Staking configured will see the Staking tab as an empty state",
   "description": "",
   "keyword": "Scenario",
   "tags": [
     {
-      "name": "@STK-2363/2475"
+      "name": "@STK-2363/2474"
     },
     {
-      "name": "@progression"
-    },
-    {
-      "name": "#inprogress"
-    },
-    {
-      "name": "#need"
-    },
-    {
-      "name": "user"
-    },
-    {
-      "name": "on"
-    },
-    {
-      "name": "new"
-    },
-    {
-      "name": "dashboard"
-    },
-    {
-      "name": "with"
-    },
-    {
-      "name": "no"
-    },
-    {
-      "name": "bots"
-    },
-    {
-      "name": "to"
-    },
-    {
-      "name": "test"
+      "name": "@smoke"
     }
   ]
 });
 formatter.step({
-  "name": "a user is on the dashboard and clicks the Bots tab",
+  "name": "a user is on the dashboard and clicks the Staking tab",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "StakingPageSteps.a_user_is_on_the_dashboard_and_clicks_the_Staking_tab()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "a user will see bots subscribed but not yet configured, bot set up cards will display",
+  "name": "an empty Staking tab state and the \"Explore Staking\" button displays",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "StakingPageSteps.an_empty_Staking_tab_state_and_the_button_displays(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "bot set up cards will include bot name, text \"Set up your bot to start trading\", and button \"Set up\"",
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "a user clicks on the Set up button",
+  "name": "a user clicks the Explore Staking button",
   "keyword": "When "
 });
-formatter.match({});
+formatter.match({
+  "location": "StakingPageSteps.a_user_clicks_the_Explore_Staking_button()"
+});
 formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.step({
-  "name": "the bot set up page displays",
+  "name": "the staking tab of the market place is opened and the \"Connect FTX exchange\" button displays",
   "keyword": "Then "
 });
-formatter.match({});
+formatter.match({
+  "location": "StakingPageSteps.the_staking_tab_of_the_market_place_is_opened_and_the_button_displays(String)"
+});
 formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "a user clicks on the \"View All Bots\" button text",
-  "keyword": "When "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.step({
-  "name": "a user is navigated to the Bots page and is able to view all bots available",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
+  "status": "passed"
 });
 formatter.after({
-  "status": "skipped"
+  "status": "passed"
 });
 });

@@ -6,9 +6,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utils.JavascriptUtils;
-
 import java.io.IOException;
-
 import static steps.PageInitializer.*;
 import static utils.CommonMethods.takeScreenshot;
 import static utils.WebDriverUtils.driver;
@@ -18,6 +16,7 @@ public class LendingPageSteps {
 
     @When("a user is on the dashboard and clicks the Lending tab")
     public void a_user_is_on_the_dashboard_and_clicks_the_Lending_tab() {
+        waitForVisibility(dashboardPage.lendingTab);
         dashboardPage.lendingTab.click();
     }
 
