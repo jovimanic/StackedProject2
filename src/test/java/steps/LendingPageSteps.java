@@ -5,14 +5,13 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import utils.CommonMethods;
 import utils.JavascriptUtils;
 import java.io.IOException;
 import static steps.PageInitializer.*;
-import static utils.CommonMethods.takeScreenshot;
-import static utils.WebDriverUtils.driver;
-import static utils.WebDriverUtils.waitForVisibility;
 
-public class LendingPageSteps {
+
+public class LendingPageSteps extends CommonMethods {
 
     @When("a user is on the dashboard and clicks the Lending tab")
     public void a_user_is_on_the_dashboard_and_clicks_the_Lending_tab() {

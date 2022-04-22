@@ -11,7 +11,7 @@ import java.util.Date;
 import static utils.Constants.SCREENSHOT_FILEPATH;
 
 
-public class CommonMethods extends WebDriverUtils {
+public class CommonMethods extends WebDriverUtils{
 
     /**
      * This class is to store our commonly used methods/blocks of code that

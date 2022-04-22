@@ -3,12 +3,12 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utils.WebDriverUtils;
+import utils.CommonMethods;
 
-public class StacksPage {
+public class StacksPage extends CommonMethods {
 
     public StacksPage(){
-        PageFactory.initElements(WebDriverUtils.driver, this);
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//span[@class='pnl success--text']")

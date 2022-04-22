@@ -1,9 +1,9 @@
 package steps;
 
-import cucumber.api.java.ht.Le;
 import pages.*;
+import utils.CommonMethods;
 
-public class PageInitializer {
+public class PageInitializer extends CommonMethods {
 
     /**
      * This class is an initializer class which will initialize all pages classes, used for organization
@@ -17,6 +17,7 @@ public class PageInitializer {
     public static LoginPage loginPage = new LoginPage();
     public static BotsPage botsPage = new BotsPage();
     public static SeeAllExchangesPage seeAllExchangesPage = new SeeAllExchangesPage();
+    public static StackedAutomatedTestBotPage stackedAutomatedTestBotPage = new StackedAutomatedTestBotPage();
     public static StacksPage stacksPage = new StacksPage();
     public static LendingPage lendingPage = new LendingPage();
     public static StakingPage stakingPage = new StakingPage();

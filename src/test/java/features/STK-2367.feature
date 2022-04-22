@@ -5,7 +5,8 @@ Feature: Verifying empty states for products area
   Background:
     Given Valid user is logged in
 
-  @STK-2363/2475 @progression #inprogress #need user on new dashboard with no bots to test
+  @STK-2363/2475 @progression
+    #run test with username2=tiffanie.sandin@stackedinvest.com (no bots configured)
   #[STK-2367] Populated state - Bots (User is subscribed to Bot(s), but Bot(s) not yet configured)
     #https://www.notion.so/stackedinvest/b1a62bee9f954fde97ea85b9f10a0c1c?v=fec4bacc916a483ab7b9bdc298854e51
   Scenario: A user with no Bots configured will see the Bots tab as an empty state

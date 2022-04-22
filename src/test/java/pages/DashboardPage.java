@@ -3,11 +3,10 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utils.WebDriverUtils;
+import utils.CommonMethods;
+import java.util.List;
 
-import static utils.WebDriverUtils.driver;
-
-public class DashboardPage {
+public class DashboardPage extends CommonMethods {
 
     public DashboardPage() {
         PageFactory.initElements(driver,this);}

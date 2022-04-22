@@ -3,13 +3,14 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utils.CommonMethods;
 import utils.WebDriverUtils;
 
 import java.util.List;
 
-public class SeeAllExchangesPage {
+public class SeeAllExchangesPage extends CommonMethods {
     public SeeAllExchangesPage(){
-        PageFactory.initElements(WebDriverUtils.driver, this);
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//*[@id=\"mainMenu\"]/div/a[1]/button")

@@ -4,11 +4,12 @@ import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
+import utils.CommonMethods;
 import utils.WebDriverUtils;
 
 import static steps.PageInitializer.*;
 
-public class STK_2361_Steps {
+public class STK_2361_Steps extends CommonMethods {
 
     @And("Click the right > button")
     public void clickTheRightButton() {
@@ -32,13 +33,13 @@ public class STK_2361_Steps {
     public void click_the_See_All_Exchanges_card() throws InterruptedException {
         dashboardPage.seeAllExchangesCard.click();
         Thread.sleep(1000);
-        Assert.assertEquals("Let's Set You Up | Stacked", WebDriverUtils.driver.getTitle());
+        Assert.assertEquals("Let's Set You Up | Stacked",driver.getTitle());
     }
 
     @Then("Click the Dashboard link")
     public void click_the_Dashboard_link() {
         seeAllExchangesPage.dashboardButton.click();
-        Assert.assertEquals("Dashboard | Stacked", WebDriverUtils.driver.getTitle());
+        Assert.assertEquals(DASHBOARD_HEADER,driver.getTitle());
     }
 
     @Then("Click the Coinbase card")

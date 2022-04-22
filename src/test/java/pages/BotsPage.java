@@ -3,12 +3,13 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utils.CommonMethods;
 import utils.WebDriverUtils;
 
-public class BotsPage {
+public class BotsPage extends CommonMethods {
 
     public BotsPage(){
-        PageFactory.initElements(WebDriverUtils.driver, this);
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//a[.=\" Bots \"]")

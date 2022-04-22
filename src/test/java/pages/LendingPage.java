@@ -3,14 +3,14 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import utils.WebDriverUtils;
+import utils.CommonMethods;
 
 import java.util.List;
 
-public class LendingPage {
+public class LendingPage extends CommonMethods {
 
     public LendingPage(){
-        PageFactory.initElements(WebDriverUtils.driver, this);
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath="//a[@href='/strategies/lending']")

@@ -8,12 +8,11 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-
 import java.util.concurrent.TimeUnit;
 
-import static utils.Constants.WAIT_FOR_VISIBILITY;
 
-public class WebDriverUtils {
+
+public class WebDriverUtils extends Constants{
 
     /**
      * This class is our Web Driver Utilities class, where we store
@@ -23,7 +22,7 @@ public class WebDriverUtils {
     public static WebDriver driver;
 
     public static void openBrowserAndLaunchApplication(){
-        ConfigReader.readProperties(Constants.CONFIGURATION_FILEPATH);
+        ConfigReader.readProperties(CONFIGURATION_FILEPATH);
         switch(ConfigReader.getPropertyValue("browser")){
             case "chrome":
             WebDriverManager.chromedriver().setup();

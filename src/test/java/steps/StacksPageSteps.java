@@ -6,15 +6,14 @@ import org.apache.commons.lang.ArrayUtils;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import utils.CommonMethods;
 import utils.JavascriptUtils;
 import java.io.IOException;
 import java.util.Arrays;
 import static steps.PageInitializer.dashboardPage;
 import static steps.PageInitializer.stacksPage;
-import static utils.CommonMethods.takeScreenshot;
-import static utils.WebDriverUtils.*;
 
-public class StacksPageSteps {
+public class StacksPageSteps extends CommonMethods {
     //static data collections used for access throughout methods in this class
     public static double[] highestToLowestStacks = new double[dashboardPage.listOfStacks.size()];
 

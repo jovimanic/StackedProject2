@@ -2,7 +2,7 @@ package steps;
 
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
-import utils.WebDriverUtils;
+import utils.CommonMethods;
 
 /**
  * This class is a Hooks class which will run blocks of code before and after
@@ -11,7 +11,7 @@ import utils.WebDriverUtils;
  */
 
 
-public class Hooks extends WebDriverUtils {
+public class Hooks extends CommonMethods {
 
     @Before
     public void start(){

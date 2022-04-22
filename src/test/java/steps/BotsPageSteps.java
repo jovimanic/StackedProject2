@@ -2,8 +2,9 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import utils.CommonMethods;
 
-public class BotsPageSteps {
+public class BotsPageSteps extends CommonMethods {
 
     @When("a user is on the dashboard and clicks the Bots tab")
     public void a_user_is_on_the_dashboard_and_clicks_the_Bots_tab() {

@@ -3,12 +3,13 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import utils.CommonMethods;
 import utils.WebDriverUtils;
 
-public class StakingPage {
+public class StakingPage extends CommonMethods {
 
     public StakingPage(){
-        PageFactory.initElements(WebDriverUtils.driver, this);
+        PageFactory.initElements(driver, this);
     }
 
     @FindBy(xpath = "//a[@href='/strategies/staking']")
