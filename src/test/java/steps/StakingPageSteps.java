@@ -22,7 +22,7 @@ public class StakingPageSteps extends CommonMethods {
     @Then("an empty Staking tab state and the {string} button displays")
     public void an_empty_Staking_tab_state_and_the_button_displays(String exploreStakingButton) throws IOException {
         waitForVisibility(stakingPage.exploreStakingButton);
-        takeScreenshot("STK_2363/2474_EmptyStakingState");
+        takeScreenshot("STK_2363/STK_2363-2474_EmptyStakingState");
         Assert.assertEquals(exploreStakingButton, stakingPage.exploreStakingButton.getText().trim());
     }
 

@@ -2,6 +2,7 @@ package steps;
 
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import cucumber.api.java.et.Ja;
 import org.apache.commons.lang.ArrayUtils;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
@@ -12,6 +13,7 @@ import utils.JavascriptUtils;
 import java.io.IOException;
 import java.util.Arrays;
 
+import static pages.StacksPage.stackCards;
 import static steps.PageInitializer.dashboardPage;
 import static steps.PageInitializer.stacksPage;
 
@@ -27,7 +29,7 @@ public class StacksPageSteps extends CommonMethods {
     @Then("the Stacks tab is empty and the {string} button displays")
     public void the_Stacks_tab_is_empty_and_the_button_displays(String exploreStacksButton) throws IOException, InterruptedException {
         Thread.sleep(1000);
-        takeScreenshot("STK_2363/2472_EmptyStacksTab");
+        takeScreenshot("STK_2363/STK_2363-2472_EmptyStacksTab");
         Assert.assertEquals(exploreStacksButton, dashboardPage.exploreStacksButton.getText().trim());
     }
 
@@ -57,10 +59,10 @@ public class StacksPageSteps extends CommonMethods {
             highestToLowestStacks[stacksCount - 1] = pnlValue;
             //taking 2 screen shots to view all cards
             if (stacksCount == 1) {
-                takeScreenshot("STK_2363/2472_Stacks_" + stacksCount + "-3");
+                takeScreenshot("STK_2363/STK_2363-2472_Stacks_" + stacksCount + "-3");
             }
             if (stacksCount == 7) {
-                takeScreenshot("STK_2363/2472_Stacks_4-" + stacksCount);
+                takeScreenshot("STK_2363/STK_2363-2472_Stacks_4-" + stacksCount);
             }
         }
     }
@@ -85,16 +87,24 @@ public class StacksPageSteps extends CommonMethods {
         Actions action = new Actions(driver);
         JavascriptUtils.jsScrollIntoView(stacksPage.secondStackCard);
         action.moveToElement(stacksPage.secondStackCard).perform();
-        takeScreenshot("STK_2363/2472_HoverShadowOnStack");
+        takeScreenshot("STK_2363/STK_2363-2472_HoverShadowOnStack");
         action.moveToElement(stacksPage.secondStackCard).perform();
     }
 
-    @When("a user clicks on a stack card, the stack's details page is opened, {string} displays")
-    public void a_user_clicks_on_a_stack_card_the_stack_s_details_page_is_opened_displays(String stackComposition) throws IOException {
-        stacksPage.secondStackCard.click();
-        waitForVisibility(stacksPage.stacksCompositionText);
-        Assert.assertEquals(stackComposition, stacksPage.stacksCompositionText.getText());
-        takeScreenshot("STK_2363/2472_StackDetailsPage");
+    @When("a user clicks on any stack card, the stack's details page is opened, {string} displays")
+    public void a_user_clicks_on_any_stack_card_the_stack_s_details_page_is_opened_displays(String stackComposition) throws IOException {
+       //iterating through each stack, to take a pic of each details page, ensuring each stack is clickable
+        for(int stackCounter=1; stackCounter<=7; stackCounter++) {
+            JavascriptUtils.jsClick(stackCards(stackCounter));
+            waitForVisibility(stacksPage.stacksCompositionText);
+            Assert.assertEquals(stackComposition, stacksPage.stacksCompositionText.getText());
+            takeScreenshot("STK_2363/STK_2363-2472_Stack"+stackCounter+"_Top_StackDetailsPage");
+            JavascriptUtils.jsScrollDown(1000);
+            takeScreenshot("STK_2363/STK_2363-2472_Stack"+stackCounter+"_Bottom_StackDetailsPage");
+            JavascriptUtils.jsScrollIntoView(dashboardPage.dashboardTextButton);
+            JavascriptUtils.jsClick(dashboardPage.dashboardTextButton);
+            dashboardPage.stacksTab.click();
+        }
     }
 
     @When("a user is on the dashboard page and clicks on the Explore Stacks button")
@@ -105,10 +115,10 @@ public class StacksPageSteps extends CommonMethods {
     }
 
     @Then("the stacks tab of the market place is opened and the {string} text displays")
-    public void the_stacks_tab_of_the_market_place_is_opened_and_the_text_displays(String standardStacks) throws IOException {
-        waitForVisibility(stacksPage.stacksTitleText);
-        Assert.assertEquals(standardStacks, stacksPage.stacksTitleText.getText());
-        takeScreenshot("STK_2363/2472_StacksMarketPlacePage");
+    public void the_stacks_tab_of_the_market_place_is_opened_and_the_text_displays(String diversifyYourCryptoIntoPreBuiltStacks) throws IOException {
+        waitForVisibility(stacksPage.diversifyYourCryptoIntoPreBuiltStacksHeaderText);
+        Assert.assertEquals(diversifyYourCryptoIntoPreBuiltStacks, stacksPage.diversifyYourCryptoIntoPreBuiltStacksHeaderText.getText());
+        takeScreenshot("STK_2363/STK_2363-2472_StacksMarketPlacePage");
     }
 
 

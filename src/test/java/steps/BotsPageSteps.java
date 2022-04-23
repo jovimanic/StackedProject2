@@ -44,7 +44,7 @@ public class BotsPageSteps extends CommonMethods {
                 }
             }
         }
-        takeScreenshot("STK_2367/BotsTab");
+        takeScreenshot("STK_2367/STK_2367_BotsTab");
     }
 
     @When("a user clicks on all of the bot Set up buttons, the bot set up page displays with data :")
@@ -66,8 +66,6 @@ public class BotsPageSteps extends CommonMethods {
                 botsPage.setUpBotButton3.click();
             }
             waitForVisibility(botsPage.myBotsHeaderText);
-            //taking screenshot of all bot Set up pages
-            takeScreenshot("STK_2367/BotsSetUpPageTop" + bot);
             //asserting all bot set up page details are displayed
             String basicSettings = botSetUpPageDataTable.get(0) + "\nReset to default";
             String riskManagement = botSetUpPageDataTable.get(1) + "\nReset to default";
@@ -80,8 +78,10 @@ public class BotsPageSteps extends CommonMethods {
             String stopLoss = botSetUpPageDataTable.get(8);
             String takeProfit = botSetUpPageDataTable.get(9);
             Assert.assertEquals(basicSettings, botsPage.basicSettingsHeaderText.getText().trim());
+            //taking screenshot of all bot Set up pages
+            takeScreenshot("STK_2367/STK_2367_BotsSetUpPageTop" + bot);
             JavascriptUtils.jsScrollDown(1000);
-            takeScreenshot("STK_2367/BotsSetUpPageBottom" + bot);
+            takeScreenshot("STK_2367/STK_2367_BotsSetUpPageBottom" + bot);
             Assert.assertEquals(riskManagement, botsPage.riskManagementHeaderText.getText().trim());
             Assert.assertEquals(tradeManagement, botsPage.tradeManagementHeaderText.getText().trim());
             Assert.assertEquals(selectExchange, botsPage.selectExchangeText.getText().trim());
@@ -108,7 +108,7 @@ public class BotsPageSteps extends CommonMethods {
     @Then("a user is navigated to the Bots page and is able to view all bots available")
     public void a_user_is_navigated_to_the_Bots_page_and_is_able_to_view_all_bots_available() throws IOException {
         waitForVisibility(botsPage.automateYourInvestmentsWithBotsText);
-        takeScreenshot("STK_2367_BotsPage");
+        takeScreenshot("STK_2367/STK_2367_BotsPage");
         Assert.assertEquals(BOTS_PAGE_HEADER, driver.getTitle());
     }
 }

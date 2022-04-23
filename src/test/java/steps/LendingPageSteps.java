@@ -22,8 +22,8 @@ public class LendingPageSteps extends CommonMethods {
     @Then("an empty Lending tab state, an array of coins and an {string} button displays")
     public void an_empty_Lending_tab_state_an_array_of_coins_and_an_button_displays(String exploreLendingButton) throws InterruptedException, IOException {
         waitForVisibility(lendingPage.exploreLendingButton);
-        takeScreenshot("STK_2363/2472_LendingPageTab");
         Assert.assertEquals(exploreLendingButton,lendingPage.exploreLendingButton.getText().trim());
+        takeScreenshot("STK_2363/STK_2363-2473_LendingPageTab");
     }
 
     @When("a user hovers on a coin, it's icon becomes larger and shows the current APY% that the coin has available on FTX")
@@ -40,11 +40,13 @@ public class LendingPageSteps extends CommonMethods {
             //taking 2 screenshots of all lending coins
             if(firstCoinCount==1){
                 JavascriptUtils.jsScrollIntoView(coin);
-                takeScreenshot("STK_2363/2473_TopRowOfLendingCoins");
+                action.moveToElement(coin).perform();
+                takeScreenshot("STK_2363/STK_2363-2473_TopRowOfLendingCoins");
             }
             if(firstCoinCount==lastCoinCount){
                 JavascriptUtils.jsScrollIntoView(coin);
-                takeScreenshot("STK_2363/2473_BottomRowOfLendingCoins");
+                action.moveToElement(coin).perform();
+                takeScreenshot("STK_2363/STK_2363-2473_BottomRowOfLendingCoins");
             }
         }
     }

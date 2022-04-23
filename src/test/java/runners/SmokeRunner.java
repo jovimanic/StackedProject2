@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         , "json:target/cucumber.json"
         , "junit:target/cucumber.xml"
         , "rerun:target/failed.txt","pretty"}
-        , features="src/test/java/features/STK-2363.feature"
+        , features="src/test/java/features/STK-2367.feature"
         , glue="steps"
         , tags="@smoke"
         , dryRun = false
