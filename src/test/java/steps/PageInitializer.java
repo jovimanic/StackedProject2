@@ -23,5 +23,4 @@ public class PageInitializer extends CommonMethods {
     public static StakingPage stakingPage = new StakingPage();
 
 
-
 }

@@ -11,15 +11,15 @@ import org.junit.runner.RunWith;
  */
 
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin= {"html:target/html-reports/cucumber-default-report"
+@CucumberOptions(plugin = {"html:target/html-reports/cucumber-default-report"
         , "json:target/cucumber.json"
         , "junit:target/cucumber.xml"
-        , "rerun:target/failed.txt","pretty"}
-        , features="src/test/java/features/Dashboard.feature"
-        , glue="steps"
-        , tags="@regression"
+        , "rerun:target/failed.txt", "pretty"}
+        , features = "src/test/java/features/Dashboard.feature"
+        , glue = "steps"
+        , tags = "@regression"
         , dryRun = false
-        , monochrome=true
+        , monochrome = true
         , strict = true
 )
 

@@ -1,4 +1,3 @@
-
 Feature: Subscribe to new Bot
 
     #tagged name of test case in notion.so commented before scenario

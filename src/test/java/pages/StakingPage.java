@@ -12,6 +12,8 @@ public class StakingPage extends CommonMethods {
         PageFactory.initElements(driver, this);
     }
 
+    /**__________ Common staking page elements __________*/
+
     @FindBy(xpath = "//a[@href='/strategies/staking']")
     public WebElement exploreStakingButton;
 

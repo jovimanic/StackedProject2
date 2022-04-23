@@ -13,6 +13,8 @@ public class SeeAllExchangesPage extends CommonMethods {
         PageFactory.initElements(driver, this);
     }
 
+    /**__________ Common exchange page elements __________*/
+
     @FindBy(xpath = "//*[@id=\"mainMenu\"]/div/a[1]/button")
     public WebElement dashboardButton;
 

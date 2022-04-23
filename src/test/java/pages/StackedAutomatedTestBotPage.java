@@ -8,10 +8,11 @@ import utils.WebDriverUtils;
 
 public class StackedAutomatedTestBotPage extends CommonMethods {
 
-    public StackedAutomatedTestBotPage(){
+    public StackedAutomatedTestBotPage() {
         PageFactory.initElements(driver, this);
     }
 
+    /**__________ Common stacked automated test bot elements __________*/
     @FindBy(xpath = "//span[.=\" Purchase \"]")
     public WebElement purchaseButton;
 }

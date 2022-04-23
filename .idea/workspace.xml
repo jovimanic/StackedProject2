@@ -5,12 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2f408e7-455f-423f-af38-8b167a80fef8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/DatabaseUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StackedInvest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StackedInvest.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/CommonMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/ConfigReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DatabaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/JavascriptUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/JavascriptUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/WebDriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WebDriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/documents/framework documents/Stacked Invest Automation Framework Overview.docx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/documents/framework documents/QA Automation Framework Overview - Stacked Invest .docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/STK-2363.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/STK-2363.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/features/STK-2367.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/STK-2367.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/SubscribeToNewBot.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/SubscribeToNewBot.Feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/BotsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BotsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LendingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LendingPage.java" afterDir="false" />
@@ -19,16 +25,41 @@
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/StackedAutomatedTestBotPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/StackedAutomatedTestBotPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/StacksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/StacksPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/StakingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/StakingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/ProgressionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/ProgressionRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/RegressionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/RegressionRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/BotsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BotsPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/DashboardSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LendingPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LendingPageSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/PageInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/PageInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/STK2362_2422Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/STK2362_2422Steps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/STK_2361_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/STK_2361_Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/StacksPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/StacksPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/StakingPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/StakingPageSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/SubscribeToNewBotSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SubscribeToNewBotSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/documents/framework documents/Stacked Invest Automation Framework Overview.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/CommonMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/CommonMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/JavascriptUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/JavascriptUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/WebDriverUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/WebDriverUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-reports/cucumber-default-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-reports/cucumber-default-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BotsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BotsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LendingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LendingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SeeAllExchangesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/SeeAllExchangesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/StackedAutomatedTestBotPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/StackedAutomatedTestBotPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/StacksPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/StacksPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/StakingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/StakingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/ProgressionRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/ProgressionRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/BotsPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/BotsPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/DashboardSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/DashboardSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LendingPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LendingPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/PageInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/PageInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/STK_2361_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/STK_2361_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/StacksPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/StacksPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SubscribeToNewBotSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/SubscribeToNewBotSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,27 +120,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/documents" />
       <recent name="$PROJECT_DIR$/src/main/resources/documents/jira documents/jira documents" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeRunner">
-    <configuration name="Feature: Dashboard" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="4" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/Dashboard.feature" />
-      <option name="GLUE" value="steps" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="StackedInvest" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Dashboard" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.ProgressionRunner">
     <configuration name="Feature: STK-2363" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/STK-2363.feature" />
@@ -129,17 +144,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashboardSmokeRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: STK-2367" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/STK-2367.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="StackedInvest" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: STK-2367" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="runners.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.DashboardSmokeRunner" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: A user with no Bots configured, but bots subscribed will see bot set up cards" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="4" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/STK-2367.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="StackedInvest" />
+      <option name="NAME_FILTER" value="^A user with no Bots configured\, but bots subscribed will see bot set up cards$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm4SMFormatter --name &quot;^A user with no Bots configured\, but bots subscribed will see bot set up cards$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: A user with no Bots configured, but bots subscribed will see bot set up cards" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,21 +193,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="runners" />
       <option name="MAIN_CLASS_NAME" value="runners.ProgressionRunner" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SmokeRunner (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StackedInvest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="runners.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="runners" />
-      <option name="MAIN_CLASS_NAME" value="runners.SmokeRunner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -191,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmokeRunner" />
         <item itemvalue="JUnit.ProgressionRunner" />
+        <item itemvalue="Cucumber Java.Scenario: A user with no Bots configured, but bots subscribed will see bot set up cards" />
+        <item itemvalue="Cucumber Java.Feature: STK-2367" />
+        <item itemvalue="JUnit.SmokeRunner" />
         <item itemvalue="Cucumber Java.Feature: STK-2363" />
-        <item itemvalue="Cucumber Java.Feature: Dashboard" />
-        <item itemvalue="JUnit.SmokeRunner (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +247,17 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/pages/BotsPage.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/StackedInvest$SmokeRunner__1_.ic" NAME="SmokeRunner (1) Coverage Results" MODIFIED="1650305267610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -21,20 +21,20 @@ public class StakingPageSteps extends CommonMethods {
 
     @Then("an empty Staking tab state and the {string} button displays")
     public void an_empty_Staking_tab_state_and_the_button_displays(String exploreStakingButton) throws IOException {
-       waitForVisibility(stakingPage.exploreStakingButton);
+        waitForVisibility(stakingPage.exploreStakingButton);
         takeScreenshot("STK_2363/2474_EmptyStakingState");
-        Assert.assertEquals(exploreStakingButton,stakingPage.exploreStakingButton.getText().trim());
+        Assert.assertEquals(exploreStakingButton, stakingPage.exploreStakingButton.getText().trim());
     }
 
     @When("a user clicks the Explore Staking button")
     public void a_user_clicks_the_Explore_Staking_button() {
-      stakingPage.exploreStakingButton.click();
+        stakingPage.exploreStakingButton.click();
     }
 
     @Then("the staking tab of the market place is opened and the {string} button displays")
     public void the_staking_tab_of_the_market_place_is_opened_and_the_button_displays(String connectFTXExchangeButton) throws IOException {
         waitForVisibility(stakingPage.connectFTXExchangeButton);
         takeScreenshot("STK_2363/2474_StakingTabInMarketPlace");
-        Assert.assertEquals(connectFTXExchangeButton,stakingPage.connectFTXExchangeButton.getText().trim());
+        Assert.assertEquals(connectFTXExchangeButton, stakingPage.connectFTXExchangeButton.getText().trim());
     }
 }

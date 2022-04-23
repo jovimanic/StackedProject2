@@ -9,20 +9,20 @@ import java.util.List;
 
 public class LendingPage extends CommonMethods {
 
-    public LendingPage(){
+    public LendingPage() {
         PageFactory.initElements(driver, this);
     }
 
-    @FindBy(xpath="//a[@href='/strategies/lending']")
+    @FindBy(xpath = "//a[@href='/strategies/lending']")
     public WebElement exploreLendingButton;
 
-    @FindBy(xpath="//div[contains(@class, \"coin-wrapper coin-wrapper\")]")
+    @FindBy(xpath = "//div[contains(@class, \"coin-wrapper coin-wrapper\")]")
     public List<WebElement> listOfCoinIcons;
 
-    @FindBy(xpath="//div[@class=\"available-coins\"]//div[@class=\"icon-wrap icon-rounded\"]")
+    @FindBy(xpath = "//div[@class=\"available-coins\"]//div[@class=\"icon-wrap icon-rounded\"]")
     public List<WebElement> listOfCoinIconText;
 
-    @FindBy(xpath="//body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]")
+    @FindBy(xpath = "//body[1]/div[1]/div[1]/div[1]/main[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/button[1]")
     public WebElement connectFTXExchangeButton;
 
 }

@@ -37,7 +37,7 @@ Feature: Verifying empty states for products area
     When a user clicks the Explore Staking button
     Then the staking tab of the market place is opened and the "Connect FTX exchange" button displays
 
-  @STK-2363/2475 @progression #inprogress #need user on new dashboard with no bots to test
+  @STK-2363/2475 @progression #inprogress #need user on new dashboard with no bots to test with new dashboard access
   #[STK-2363/2475] Empty state - Products area - Bots
     #https://www.notion.so/stackedinvest/bdafd0f7781e47dcb23da86afba6c789?v=e7ddd5571b7f499388c6f5659543983c
   Scenario: A user with no Bots configured will see the Bots tab as an empty state

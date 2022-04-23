@@ -22,6 +22,19 @@ public class JavascriptUtils {
         executor.executeScript("arguments[0].scrollIntoView(true);", elementScrolledIntoView);
 
     }
+    public static void jsScrollUp(int scrollUp){
+        executor.executeScript("window.scrollBy(0,-"+scrollUp+")");
 
+    }
+
+    public static void jsScrollDown(int scrollDown){
+        executor.executeScript("window.scrollBy(0,"+scrollDown+")");
+
+    }
+
+    public static void jsScroll(int scroll){
+        executor.executeScript("window.scrollBy(0,"+scroll+")");
+
+    }
 
 }

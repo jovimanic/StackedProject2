@@ -19,7 +19,7 @@ import org.junit.runner.RunWith;
         , features="src/test/java/features/STK-2367.feature"
         , glue="steps"
         , tags="@progression"
-        , dryRun = true
+        , dryRun = false
         , monochrome= true
         , strict = true
 )

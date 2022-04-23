@@ -38,4 +38,17 @@ public class CommonMethods extends WebDriverUtils{
         return picBytes;
     }
 
+    public static byte[] takeScreenshotOnFailure(String fileName) throws IOException {
+        TakesScreenshot ts =(TakesScreenshot)driver;
+        byte[] picBytes = ts.getScreenshotAs(OutputType.BYTES);
+        //Declare source file
+        File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+        //Declare file destination
+        try {
+            FileUtils.copyFile(sourceFile,new File(SCREENSHOT_FILEPATH + fileName + " " + getTimeStamp("MM-dd-yyyy-HH-mm-ss") + ".png"));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return picBytes;
+    }
 }

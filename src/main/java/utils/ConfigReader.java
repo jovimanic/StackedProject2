@@ -4,12 +4,11 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigReader {
+public class ConfigReader{
 
     /**
      * This class is to read our config.properties file (date file)
      */
-
 
     static Properties prop;
 

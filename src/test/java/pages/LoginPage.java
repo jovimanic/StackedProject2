@@ -10,9 +10,10 @@ import static utils.WebDriverUtils.driver;
 
 public class LoginPage extends CommonMethods {
     public LoginPage() {
-        PageFactory.initElements(driver,this);}
-
-    @FindBy (id = "username")
+        PageFactory.initElements(driver, this);
+    }
+    /**__________ Common login page elements __________*/
+    @FindBy(id = "username")
     public WebElement emailAddressBox;
 
     @FindBy(id = "password")

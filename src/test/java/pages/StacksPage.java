@@ -11,6 +11,8 @@ public class StacksPage extends CommonMethods {
         PageFactory.initElements(driver, this);
     }
 
+    /**__________ Common stacks page elements __________*/
+
     @FindBy(xpath = "//span[@class='pnl success--text']")
     public WebElement pnlCardValueText;
 

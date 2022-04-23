@@ -11,7 +11,7 @@ public class DashboardPage extends CommonMethods {
     public DashboardPage() {
         PageFactory.initElements(driver,this);}
 
-    /**__________ Main Page __________*/
+    /**__________ Common dashboard page elements __________*/
 
 @FindBy(xpath = "//body/div[@id='app']/div/div/main[@data-booted='true']/div/div/div/div/div[@layout='LayoutDefault']/div/div/div/button[@role='button']/span[1]")
 public WebElement allTimeDropDown;

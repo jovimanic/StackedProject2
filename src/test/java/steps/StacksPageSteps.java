@@ -8,8 +8,10 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utils.CommonMethods;
 import utils.JavascriptUtils;
+
 import java.io.IOException;
 import java.util.Arrays;
+
 import static steps.PageInitializer.dashboardPage;
 import static steps.PageInitializer.stacksPage;
 
@@ -26,15 +28,15 @@ public class StacksPageSteps extends CommonMethods {
     public void the_Stacks_tab_is_empty_and_the_button_displays(String exploreStacksButton) throws IOException, InterruptedException {
         Thread.sleep(1000);
         takeScreenshot("STK_2363/2472_EmptyStacksTab");
-        Assert.assertEquals(exploreStacksButton,dashboardPage.exploreStacksButton.getText().trim());
+        Assert.assertEquals(exploreStacksButton, dashboardPage.exploreStacksButton.getText().trim());
     }
 
     @Then("a static list of cards at the bottom of the Stacks tab displays the top seven stacks")
     public void a_static_list_of_cards_at_the_bottom_of_the_Stacks_tab_displays_the_top_seven_stacks() throws IOException, InterruptedException {
         int stacksCount = 0;
-        String value1="";
-        String value2="";
-        String value3="";
+        String value1 = "";
+        String value2 = "";
+        String value3 = "";
 
         System.out.println("------------------TOP STACKS LIST ON DASHBOARD PAGE STACKS TAB------------------");
         //iterating through the list of stacks, taking a screenshot and printing the stack name
@@ -48,20 +50,21 @@ public class StacksPageSteps extends CommonMethods {
             value1 = stacks.getText().trim();
             StringBuilder sb1 = new StringBuilder(value1);
             sb1.reverse();
-            value2=sb1.substring(1,6);
+            value2 = sb1.substring(1, 6);
             StringBuilder sb2 = new StringBuilder(value2);
-            value3= String.valueOf(sb2.reverse());
+            value3 = String.valueOf(sb2.reverse());
             double pnlValue = Double.parseDouble(value3);
             highestToLowestStacks[stacksCount - 1] = pnlValue;
             //taking 2 screen shots to view all cards
             if (stacksCount == 1) {
-                takeScreenshot("STK_2363/2472_Stacks_" + stacksCount+"-3");
+                takeScreenshot("STK_2363/2472_Stacks_" + stacksCount + "-3");
             }
             if (stacksCount == 7) {
                 takeScreenshot("STK_2363/2472_Stacks_4-" + stacksCount);
             }
         }
     }
+
     @Then("the Stack cards are listed left-to-right by highest PnL for the selected time period")
     public void the_Stack_cards_are_listed_left_to_right_by_highest_PnL_for_the_selected_time_period() throws IOException, InterruptedException {
         System.out.println("------------------PNL VALUES LARGEST TO SMALLEST------------------");
@@ -69,8 +72,8 @@ public class StacksPageSteps extends CommonMethods {
         int stacksCounted = 1;
         Arrays.sort(highestToLowestStacks);
         ArrayUtils.reverse(highestToLowestStacks);
-        for(double highLowPnl: highestToLowestStacks){
-            System.out.print(stacksCounted+". "+highLowPnl+"\n");
+        for (double highLowPnl : highestToLowestStacks) {
+            System.out.print(stacksCounted + ". " + highLowPnl + "\n");
             stacksCounted++;
         }
         System.out.println();
@@ -90,7 +93,7 @@ public class StacksPageSteps extends CommonMethods {
     public void a_user_clicks_on_a_stack_card_the_stack_s_details_page_is_opened_displays(String stackComposition) throws IOException {
         stacksPage.secondStackCard.click();
         waitForVisibility(stacksPage.stacksCompositionText);
-        Assert.assertEquals(stackComposition,stacksPage.stacksCompositionText.getText());
+        Assert.assertEquals(stackComposition, stacksPage.stacksCompositionText.getText());
         takeScreenshot("STK_2363/2472_StackDetailsPage");
     }
 
@@ -104,7 +107,7 @@ public class StacksPageSteps extends CommonMethods {
     @Then("the stacks tab of the market place is opened and the {string} text displays")
     public void the_stacks_tab_of_the_market_place_is_opened_and_the_text_displays(String standardStacks) throws IOException {
         waitForVisibility(stacksPage.stacksTitleText);
-        Assert.assertEquals(standardStacks,stacksPage.stacksTitleText.getText());
+        Assert.assertEquals(standardStacks, stacksPage.stacksTitleText.getText());
         takeScreenshot("STK_2363/2472_StacksMarketPlacePage");
     }
 
