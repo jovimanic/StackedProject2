@@ -4,12 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.CommonMethods;
-import utils.WebDriverUtils;
+import utils.Driver;
 
 public class StakingPage extends CommonMethods {
 
     public StakingPage(){
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     /**__________ Common staking page elements __________*/

@@ -8,6 +8,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utils.CommonMethods;
+import utils.Driver;
 import utils.JavascriptUtils;
 
 import java.io.IOException;
@@ -84,7 +85,7 @@ public class StacksPageSteps extends CommonMethods {
     @Then("a hover shadow is captured in screenshot when a user hovers over a Stack")
     public void a_hover_shadow_is_captured_in_screenshot_when_a_user_hovers_over_a_Stack() throws IOException, InterruptedException {
         Thread.sleep(1000);
-        Actions action = new Actions(driver);
+        Actions action = new Actions(Driver.getDriver());
         JavascriptUtils.jsScrollIntoView(stacksPage.secondStackCard);
         action.moveToElement(stacksPage.secondStackCard).perform();
         takeScreenshot("STK-2363/STK-2363-2472_HoverShadowOnStack");

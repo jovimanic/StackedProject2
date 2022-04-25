@@ -4,13 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.CommonMethods;
-import utils.WebDriverUtils;
+import utils.Driver;
 
-import java.util.List;
 
 public class SeeAllExchangesPage extends CommonMethods {
     public SeeAllExchangesPage(){
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     /**__________ Common exchange page elements __________*/

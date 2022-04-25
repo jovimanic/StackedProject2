@@ -1,17 +1,17 @@
 package pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.CommonMethods;
+import utils.Driver;
 
 import java.util.List;
 
 public class BotsPage extends CommonMethods {
 
     public BotsPage() {
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     /**__________ Common bot page elements __________*/

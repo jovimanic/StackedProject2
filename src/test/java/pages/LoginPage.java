@@ -4,13 +4,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.CommonMethods;
-
-import static utils.WebDriverUtils.driver;
+import utils.Driver;
 
 
 public class LoginPage extends CommonMethods {
     public LoginPage() {
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
     /**__________ Common login page elements __________*/
     @FindBy(id = "username")

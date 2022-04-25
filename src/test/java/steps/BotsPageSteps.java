@@ -5,6 +5,7 @@ import cucumber.api.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import utils.CommonMethods;
+import utils.Driver;
 import utils.JavascriptUtils;
 
 import java.io.IOException;
@@ -18,7 +19,7 @@ public class BotsPageSteps extends CommonMethods {
 
     @When("a user is on the dashboard and clicks the Bots tab")
     public void a_user_is_on_the_dashboard_and_clicks_the_Bots_tab() {
-        Assert.assertEquals(DASHBOARD_HEADER, driver.getTitle());
+        Assert.assertEquals(DASHBOARD_HEADER, Driver.getDriver().getTitle());
         waitForVisibility(botsPage.botsTab);
         botsPage.botsTab.click();
     }
@@ -109,6 +110,6 @@ public class BotsPageSteps extends CommonMethods {
     public void a_user_is_navigated_to_the_Bots_page_and_is_able_to_view_all_bots_available() throws IOException {
         waitForVisibility(botsPage.automateYourInvestmentsWithBotsText);
         takeScreenshot("STK-2367/STK-2367_BotsPage");
-        Assert.assertEquals(BOTS_PAGE_HEADER, driver.getTitle());
+        Assert.assertEquals(BOTS_PAGE_HEADER, Driver.getDriver().getTitle());
     }
 }

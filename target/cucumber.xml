@@ -1,11 +1,64 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="50.042566">
-<testcase classname="Verifying empty states for products area" name="A user with no Bots configured, but bots subscribed will see bot set up cards" time="50.042566">
-<system-out><![CDATA[Given Valid user is logged in...............................................passed
-When a user is on the dashboard and clicks the Bots tab.....................passed
-Then all bot set up cards will display including bot name, text "Set up your bot to start trading",and button "Set up".passed
-When a user clicks on all of the bot Set up buttons, the bot set up page displays with data :.passed
-When a user clicks on the "View all Bots" button text.......................passed
-Then a user is navigated to the Bots page and is able to view all bots available.passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="71.234138">
+<testcase classname="Verifying empty states for products area" name="A user with no Lending configured will see the Lending tab as an empty state" time="48.550333">
+<system-out><![CDATA[Given a user with no Lending is logged in...................................passed
+When a user is on the dashboard and clicks the Lending tab..................passed
+Then an empty Lending tab state, an array of coins and an "Explore Lending" button displays.passed
+When a user hovers on a coin, it's icon becomes larger and shows the current APY% that the coin has available on FTX.passed
+When a user clicks on the Explore Lending button............................passed
+Then the lending tab of the market place is opened and the "Connect FTX exchange" button displays.passed
 ]]></system-out>
+</testcase>
+<testcase classname="Verifying empty states for products area" name="A user with no Staking configured will see the Staking tab as an empty state" time="11.252049">
+<failure message="org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Lilys-MBP-2', ip: 'fe80:0:0:0:141f:b81a:d7c4:15c4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '17.0.3'&#10;Driver info: driver.version: RemoteWebDriver&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)&#10;&#9;at org.openqa.selenium.By$ById.findElement(By.java:188)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#10;&#9;at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)&#10;&#9;at steps.LoginSteps.a_user_with_no_Staking_is_logged_in(LoginSteps.java:43)&#10;&#9;at ✽.a user with no Staking is logged in(file:src/test/java/features/STK-2363.feature:37)&#10;"><![CDATA[Given a user with no Staking is logged in...................................failed
+When a user is on the dashboard and clicks the Staking tab..................skipped
+Then an empty Staking tab state and the "Explore Staking" button displays...skipped
+When a user clicks the Explore Staking button...............................skipped
+Then the staking tab of the market place is opened and the "Connect FTX exchange" button displays.skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Lilys-MBP-2', ip: 'fe80:0:0:0:141f:b81a:d7c4:15c4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '17.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)
+	at steps.LoginSteps.a_user_with_no_Staking_is_logged_in(LoginSteps.java:43)
+	at ✽.a user with no Staking is logged in(file:src/test/java/features/STK-2363.feature:37)
+]]></failure>
+</testcase>
+<testcase classname="Verifying empty states for products area" name="A user with no Bots configured, but bots subscribed will see bot set up cards" time="11.431756">
+<failure message="org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Lilys-MBP-2', ip: 'fe80:0:0:0:141f:b81a:d7c4:15c4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '17.0.3'&#10;Driver info: driver.version: RemoteWebDriver&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)&#10;&#9;at org.openqa.selenium.By$ById.findElement(By.java:188)&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#10;&#9;at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)&#10;&#9;at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)&#10;&#9;at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)&#10;&#9;at steps.LoginSteps.A_user_with_bots_subscribed_but_not_configured_is_logged_in(LoginSteps.java:61)&#10;&#9;at ✽.A user with bots subscribed, but not configured is logged in(file:src/test/java/features/STK-2367.feature:6)&#10;"><![CDATA[Given A user with bots subscribed, but not configured is logged in..........failed
+When a user is on the dashboard and clicks the Bots tab.....................skipped
+Then all bot set up cards will display including bot name, text "Set up your bot to start trading",and button "Set up".skipped
+When a user clicks on all of the bot Set up buttons, the bot set up page displays with data :.skipped
+When a user clicks on the "View all Bots" button text.......................skipped
+Then a user is navigated to the Bots page and is able to view all bots available.skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Lilys-MBP-2', ip: 'fe80:0:0:0:141f:b81a:d7c4:15c4%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.2.1', java.version: '17.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy22.sendKeys(Unknown Source)
+	at steps.LoginSteps.A_user_with_bots_subscribed_but_not_configured_is_logged_in(LoginSteps.java:61)
+	at ✽.A user with bots subscribed, but not configured is logged in(file:src/test/java/features/STK-2367.feature:6)
+]]></failure>
 </testcase>
 </testsuite>

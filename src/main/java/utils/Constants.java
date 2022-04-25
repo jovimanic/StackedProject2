@@ -54,8 +54,8 @@ public class Constants {
     /**
      * integers for wait times in seconds
      */
-    public static final int IMPLICIT_WAIT = 60;
-    public static final int EXPLICIT_WAIT = 30;
+    public static final int IMPLICIT_WAIT = 30;
+    public static final int EXPLICIT_WAIT = 60;
     public static final int WAIT_FOR_VISIBILITY = 30;
 
     /**

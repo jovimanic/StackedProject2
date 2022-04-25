@@ -1,5 +1,6 @@
 package utils;
 
+import cucumber.api.Scenario;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -16,37 +17,35 @@ public class WebDriverUtils extends Constants{
      * This class is our Web Driver Utilities class, where we store
      * methods to open and close our browser, as well as additional useful web driver methods
      */
-
-    public static WebDriver driver;
-
     public static void openBrowserAndLaunchApplication(){
-        ConfigReader.readProperties(CONFIGURATION_FILEPATH);
-        switch(ConfigReader.getPropertyValue("browser")){
-            case "chrome":
-            WebDriverManager.chromedriver().setup();
-                driver = new ChromeDriver();
-                break;
-            case "firefox":
-                WebDriverManager.firefoxdriver().setup();
-                driver = new FirefoxDriver();
-                break;
-            default: throw new RuntimeException("Invalid browser name");
+        Driver.getDriver();
+        Driver.getDriver().manage().window().maximize();
+        Driver.getDriver().get(ConfigReader.getPropertyValue("url"));
+        Driver.getDriver().manage().timeouts().implicitlyWait(Constants.IMPLICIT_WAIT, TimeUnit.SECONDS);
+    }
+
+    public static void closeBrowser(Scenario scenario){
+
+        Driver.getDriver().close();
+
+        if(scenario.isFailed()){
+            Driver.getDriver().quit();
         }
-        driver.manage().window().maximize();
-        driver.get(ConfigReader.getPropertyValue("url"));
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
     }
 
     public static void closeBrowser(){
-        driver.quit();
+
+        Driver.getDriver().close();
+
     }
 
     public static void explicitWait(int timeInSeconds){
-        WebDriverWait w = new WebDriverWait(driver, timeInSeconds);
+        WebDriverWait w = new WebDriverWait(Driver.getDriver(), timeInSeconds);
     }
 
     public static void waitForVisibility(WebElement element){
-        WebDriverWait w = new WebDriverWait(driver, WAIT_FOR_VISIBILITY);
+        WebDriverWait w = new WebDriverWait(Driver.getDriver(), WAIT_FOR_VISIBILITY);
         w.until(ExpectedConditions.visibilityOf(element));
     }
 

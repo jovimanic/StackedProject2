@@ -5,13 +5,116 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d2f408e7-455f-423f-af38-8b167a80fef8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_EmptyStacksTab 04-24-2022-21-13-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_HoverShadowOnStack 04-24-2022-21-13-18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack1_Bottom_StackDetailsPage 04-24-2022-21-13-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack1_Top_StackDetailsPage 04-24-2022-21-13-28.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack2_Bottom_StackDetailsPage 04-24-2022-21-13-38.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack2_Top_StackDetailsPage 04-24-2022-21-13-37.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack3_Bottom_StackDetailsPage 04-24-2022-21-13-47.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack3_Top_StackDetailsPage 04-24-2022-21-13-46.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack4_Bottom_StackDetailsPage 04-24-2022-21-13-53.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack4_Top_StackDetailsPage 04-24-2022-21-13-52.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack5_Bottom_StackDetailsPage 04-24-2022-21-13-59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack5_Top_StackDetailsPage 04-24-2022-21-13-58.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack6_Bottom_StackDetailsPage 04-24-2022-21-14-07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack6_Top_StackDetailsPage 04-24-2022-21-14-06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack7_Bottom_StackDetailsPage 04-24-2022-21-14-14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stack7_Top_StackDetailsPage 04-24-2022-21-14-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_StacksMarketPlacePage 04-24-2022-21-14-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stacks_1-3 04-24-2022-21-13-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2472_Stacks_4-7 04-24-2022-21-13-16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_BottomRowOfLendingCoins 04-24-2022-21-20-49.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_BottomRowOfLendingCoins 04-24-2022-21-36-05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_BottomRowOfLendingCoins 04-24-2022-21-39-15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_BottomRowOfLendingCoins 04-24-2022-21-52-26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_BottomRowOfLendingCoins 04-24-2022-21-56-08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_LendingPageTab 04-24-2022-21-20-44.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_LendingPageTab 04-24-2022-21-35-59.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_LendingPageTab 04-24-2022-21-39-09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_LendingPageTab 04-24-2022-21-52-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_LendingPageTab 04-24-2022-21-56-03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_TopRowOfLendingCoins 04-24-2022-21-20-45.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_TopRowOfLendingCoins 04-24-2022-21-36-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_TopRowOfLendingCoins 04-24-2022-21-39-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_TopRowOfLendingCoins 04-24-2022-21-52-22.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/STK-2363/STK-2363-2473_TopRowOfLendingCoins 04-24-2022-21-56-04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-14-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-14-51.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-21-02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-21-13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-36-17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-39-29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-56-21.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-56-32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utils/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/features/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/runners/CukesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/utils/Driver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/runners/CukesRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-08-54-51.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-08-55-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-08-55-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-08-57-34.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-52-40.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-08-57-46.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-52-43.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-09-09-09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-09-12-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-09-22-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-23-2022-09-29-04.png" beforeDir="false" afterPath="$PROJECT_DIR$/screenshots/failed scenarios/Failed 04-24-2022-21-14-41.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/CommonMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/CommonMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/utils/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/DatabaseUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/JavascriptUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/JavascriptUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WebDriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WebDriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/STK-2363.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/STK-2363.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/STK-2367.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/STK-2367.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/features/SubscribeToNewBot.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/features/SubscribeToNewBot.Feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/BotsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/BotsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LendingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LendingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/SeeAllExchangesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/SeeAllExchangesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/StackedAutomatedTestBotPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/StackedAutomatedTestBotPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/StacksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/StacksPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/StakingPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/StakingPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/ProgressionRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/ProgressionRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/BotsPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/BotsPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/LendingPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LendingPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/LoginSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/STK2362_2422Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/STK2362_2422Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/STK_2361_Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/STK_2361_Steps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/StacksPageSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/StacksPageSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/SubscribeToNewBotSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/SubscribeToNewBotSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/CommonMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/CommonMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/DatabaseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/DatabaseUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/JavascriptUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/JavascriptUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/WebDriverUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/WebDriverUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failed.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failed.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/html-reports/cucumber-default-report/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/html-reports/cucumber-default-report/report.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BotsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BotsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LendingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LendingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/SeeAllExchangesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/SeeAllExchangesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/StackedAutomatedTestBotPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/StackedAutomatedTestBotPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/StacksPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/StacksPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/StakingPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/StakingPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/runners/ProgressionRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/runners/ProgressionRunner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/BotsPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/BotsPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/Hooks.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LendingPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LendingPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/LoginSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/STK2362_2422Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/STK2362_2422Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/STK_2361_Steps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/STK_2361_Steps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/StacksPageSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/StacksPageSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/steps/SubscribeToNewBotSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/steps/SubscribeToNewBotSteps.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,22 +150,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/documents" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "/Users/lilyking/IdeaProjects/StackedInvest/src/test/java/features",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/features" />
       <recent name="$PROJECT_DIR$/src/main/resources/documents" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -73,10 +171,11 @@
       <recent name="$PROJECT_DIR$/src/main/resources/documents/jira documents/jira documents" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="runners" />
       <recent name="utils" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SmokeRunner">
+  <component name="RunManager" selected="JUnit.ProgressionRunner">
     <configuration name="Feature: STK-2363" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="4" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/features/STK-2363.feature" />
@@ -167,8 +266,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SmokeRunner" />
         <item itemvalue="JUnit.ProgressionRunner" />
+        <item itemvalue="JUnit.SmokeRunner" />
         <item itemvalue="Cucumber Java.Scenario: A user with no Bots configured, but bots subscribed will see bot set up cards" />
         <item itemvalue="Cucumber Java.Feature: STK-2367" />
         <item itemvalue="Cucumber Java.Feature: STK-2363" />
@@ -204,13 +303,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/pages/BotsPage.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/steps/StacksPageSteps.java</url>
-          <line>83</line>
+          <line>84</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

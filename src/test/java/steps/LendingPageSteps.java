@@ -6,6 +6,7 @@ import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import utils.CommonMethods;
+import utils.Driver;
 import utils.JavascriptUtils;
 import java.io.IOException;
 import static steps.PageInitializer.*;
@@ -28,7 +29,7 @@ public class LendingPageSteps extends CommonMethods {
 
     @When("a user hovers on a coin, it's icon becomes larger and shows the current APY% that the coin has available on FTX")
     public void a_user_hovers_on_a_coin_it_s_icon_becomes_larger_and_shows_the_current_APY_that_the_coin_has_available_on_FTX() throws IOException {
-        Actions action = new Actions(driver);
+        Actions action = new Actions(Driver.getDriver());
         int firstCoinCount = 0;
         int lastCoinCount = lendingPage.listOfCoinIcons.size();
         System.out.println("------------------LIST OF LENDING COIN APIS------------------");

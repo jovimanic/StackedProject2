@@ -1,5 +1,6 @@
 package runners;
 
+
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 import org.junit.runner.RunWith;
@@ -16,7 +17,7 @@ import org.junit.runner.RunWith;
         , "json:target/cucumber.json"
         , "junit:target/cucumber.xml"
         , "rerun:target/failed.txt","pretty"}
-        , features="src/test/java/features/STK-2367.feature"
+        , features="src/test/java/features"
         , glue="steps"
         , tags="@progression"
         , dryRun = false

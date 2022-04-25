@@ -7,6 +7,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import utils.CommonMethods;
+import utils.Driver;
 
 import java.io.File;
 import java.io.IOException;
@@ -28,10 +29,13 @@ public class Hooks extends CommonMethods {
     @After
     public void end(Scenario scenario) {
 
+        if(!scenario.isFailed()){
+            Driver.closeDriver();
+        }
         //method to take screenshot on test failure
         if (scenario.isFailed()) {
             try {
-                TakesScreenshot ts = (TakesScreenshot) driver;
+                TakesScreenshot ts = (TakesScreenshot) Driver.getDriver();
                 byte[] picBytes = ts.getScreenshotAs(OutputType.BYTES);
                 //Declare source file
                 File sourceFile = ts.getScreenshotAs(OutputType.FILE);
@@ -41,9 +45,11 @@ public class Hooks extends CommonMethods {
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-            } catch (Exception e){}
+            } catch (Exception e) {
+            }
+            Driver.closeDriver();
         }
-        closeBrowser();
+
     }
 }
 

@@ -25,7 +25,7 @@ public class CommonMethods extends WebDriverUtils{
     }
 
     public static byte[] takeScreenshot(String fileName) throws IOException {
-        TakesScreenshot ts =(TakesScreenshot)driver;
+        TakesScreenshot ts =(TakesScreenshot)Driver.getDriver();
         byte[] picBytes = ts.getScreenshotAs(OutputType.BYTES);
         //Declare source file
         File sourceFile = ts.getScreenshotAs(OutputType.FILE);
@@ -39,7 +39,7 @@ public class CommonMethods extends WebDriverUtils{
     }
 
     public static byte[] takeScreenshotOnFailure(String fileName) throws IOException {
-        TakesScreenshot ts =(TakesScreenshot)driver;
+        TakesScreenshot ts =(TakesScreenshot)Driver.getDriver();
         byte[] picBytes = ts.getScreenshotAs(OutputType.BYTES);
         //Declare source file
         File sourceFile = ts.getScreenshotAs(OutputType.FILE);

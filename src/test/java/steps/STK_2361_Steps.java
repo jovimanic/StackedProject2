@@ -5,6 +5,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import org.junit.Assert;
 import utils.CommonMethods;
+import utils.Driver;
 import utils.WebDriverUtils;
 
 import static steps.PageInitializer.*;
@@ -33,13 +34,13 @@ public class STK_2361_Steps extends CommonMethods {
     public void click_the_See_All_Exchanges_card() throws InterruptedException {
         dashboardPage.seeAllExchangesCard.click();
         Thread.sleep(1000);
-        Assert.assertEquals("Let's Set You Up | Stacked",driver.getTitle());
+        Assert.assertEquals("Let's Set You Up | Stacked", Driver.getDriver().getTitle());
     }
 
     @Then("Click the Dashboard link")
     public void click_the_Dashboard_link() {
         seeAllExchangesPage.dashboardButton.click();
-        Assert.assertEquals(DASHBOARD_HEADER,driver.getTitle());
+        Assert.assertEquals(DASHBOARD_HEADER,Driver.getDriver().getTitle());
     }
 
     @Then("Click the Coinbase card")

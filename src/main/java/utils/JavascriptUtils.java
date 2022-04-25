@@ -3,8 +3,6 @@ package utils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 
-import static utils.WebDriverUtils.driver;
-
 public class JavascriptUtils {
 
     /**
@@ -12,7 +10,7 @@ public class JavascriptUtils {
      * methods to execute javascript commands
      */
 
-   public static JavascriptExecutor executor = (JavascriptExecutor) driver;
+   public static JavascriptExecutor executor = (JavascriptExecutor)Driver.getDriver();
 
     public static void jsClick(WebElement elementToBeClicked){
         executor.executeScript("arguments[0].click();", elementToBeClicked);

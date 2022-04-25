@@ -5,13 +5,13 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.CommonMethods;
+import utils.Driver;
 
-import java.util.List;
 
 public class StacksPage extends CommonMethods {
 
     public StacksPage(){
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(Driver.getDriver(), this);
     }
 
     /**__________ Common stacks page elements __________*/
@@ -28,7 +28,7 @@ public class StacksPage extends CommonMethods {
 
     //dynamic method to locate each stack card
     public static WebElement stackCards(int stackCount){
-     WebElement stackCards = driver.findElement(By.xpath("//body//div[@id='app']//div[@layout='LayoutFullscreenDefault']//div//div//div[2]//a["+stackCount+"]"));
+     WebElement stackCards = Driver.getDriver().findElement(By.xpath("//body//div[@id='app']//div[@layout='LayoutFullscreenDefault']//div//div//div[2]//a["+stackCount+"]"));
         return stackCards;
     }
 

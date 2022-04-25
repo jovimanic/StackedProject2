@@ -3,9 +3,9 @@ Feature: Verifying empty states for products area
   #tagged name of test case in notion.so commented before scenario
 
   Background:
-    Given Valid user is logged in
+  Given A user with bots subscribed, but not configured is logged in
 
-  @STK-2367 @smoke
+  @STK-2367 @progression
     #run test with username2=tiffanie.sandin@stackedinvest.com (no bots configured)
   #[STK-2367] Populated state - Bots (User is subscribed to Bot(s), but Bot(s) not yet configured)
     #https://www.notion.so/stackedinvest/b1a62bee9f954fde97ea85b9f10a0c1c?v=fec4bacc916a483ab7b9bdc298854e51
