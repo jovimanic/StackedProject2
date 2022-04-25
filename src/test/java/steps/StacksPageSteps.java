@@ -29,7 +29,7 @@ public class StacksPageSteps extends CommonMethods {
     @Then("the Stacks tab is empty and the {string} button displays")
     public void the_Stacks_tab_is_empty_and_the_button_displays(String exploreStacksButton) throws IOException, InterruptedException {
         Thread.sleep(1000);
-        takeScreenshot("STK_2363/STK_2363-2472_EmptyStacksTab");
+        takeScreenshot("STK-2363/STK-2363-2472_EmptyStacksTab");
         Assert.assertEquals(exploreStacksButton, dashboardPage.exploreStacksButton.getText().trim());
     }
 
@@ -59,10 +59,10 @@ public class StacksPageSteps extends CommonMethods {
             highestToLowestStacks[stacksCount - 1] = pnlValue;
             //taking 2 screen shots to view all cards
             if (stacksCount == 1) {
-                takeScreenshot("STK_2363/STK_2363-2472_Stacks_" + stacksCount + "-3");
+                takeScreenshot("STK-2363/STK-2363-2472_Stacks_" + stacksCount + "-3");
             }
             if (stacksCount == 7) {
-                takeScreenshot("STK_2363/STK_2363-2472_Stacks_4-" + stacksCount);
+                takeScreenshot("STK-2363/STK-2363-2472_Stacks_4-" + stacksCount);
             }
         }
     }
@@ -87,7 +87,7 @@ public class StacksPageSteps extends CommonMethods {
         Actions action = new Actions(driver);
         JavascriptUtils.jsScrollIntoView(stacksPage.secondStackCard);
         action.moveToElement(stacksPage.secondStackCard).perform();
-        takeScreenshot("STK_2363/STK_2363-2472_HoverShadowOnStack");
+        takeScreenshot("STK-2363/STK-2363-2472_HoverShadowOnStack");
         action.moveToElement(stacksPage.secondStackCard).perform();
     }
 
@@ -98,9 +98,9 @@ public class StacksPageSteps extends CommonMethods {
             JavascriptUtils.jsClick(stackCards(stackCounter));
             waitForVisibility(stacksPage.stacksCompositionText);
             Assert.assertEquals(stackComposition, stacksPage.stacksCompositionText.getText());
-            takeScreenshot("STK_2363/STK_2363-2472_Stack"+stackCounter+"_Top_StackDetailsPage");
+            takeScreenshot("STK-2363/STK-2363-2472_Stack"+stackCounter+"_Top_StackDetailsPage");
             JavascriptUtils.jsScrollDown(1000);
-            takeScreenshot("STK_2363/STK_2363-2472_Stack"+stackCounter+"_Bottom_StackDetailsPage");
+            takeScreenshot("STK-2363/STK-2363-2472_Stack"+stackCounter+"_Bottom_StackDetailsPage");
             JavascriptUtils.jsScrollIntoView(dashboardPage.dashboardTextButton);
             JavascriptUtils.jsClick(dashboardPage.dashboardTextButton);
             dashboardPage.stacksTab.click();
@@ -118,7 +118,7 @@ public class StacksPageSteps extends CommonMethods {
     public void the_stacks_tab_of_the_market_place_is_opened_and_the_text_displays(String diversifyYourCryptoIntoPreBuiltStacks) throws IOException {
         waitForVisibility(stacksPage.diversifyYourCryptoIntoPreBuiltStacksHeaderText);
         Assert.assertEquals(diversifyYourCryptoIntoPreBuiltStacks, stacksPage.diversifyYourCryptoIntoPreBuiltStacksHeaderText.getText());
-        takeScreenshot("STK_2363/STK_2363-2472_StacksMarketPlacePage");
+        takeScreenshot("STK-2363/STK-2363-2472_StacksMarketPlacePage");
     }
 
 

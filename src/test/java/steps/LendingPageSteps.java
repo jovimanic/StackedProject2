@@ -23,7 +23,7 @@ public class LendingPageSteps extends CommonMethods {
     public void an_empty_Lending_tab_state_an_array_of_coins_and_an_button_displays(String exploreLendingButton) throws InterruptedException, IOException {
         waitForVisibility(lendingPage.exploreLendingButton);
         Assert.assertEquals(exploreLendingButton,lendingPage.exploreLendingButton.getText().trim());
-        takeScreenshot("STK_2363/STK_2363-2473_LendingPageTab");
+        takeScreenshot("STK-2363/STK-2363-2473_LendingPageTab");
     }
 
     @When("a user hovers on a coin, it's icon becomes larger and shows the current APY% that the coin has available on FTX")
@@ -41,12 +41,12 @@ public class LendingPageSteps extends CommonMethods {
             if(firstCoinCount==1){
                 JavascriptUtils.jsScrollIntoView(coin);
                 action.moveToElement(coin).perform();
-                takeScreenshot("STK_2363/STK_2363-2473_TopRowOfLendingCoins");
+                takeScreenshot("STK-2363/STK-2363-2473_TopRowOfLendingCoins");
             }
             if(firstCoinCount==lastCoinCount){
                 JavascriptUtils.jsScrollIntoView(coin);
                 action.moveToElement(coin).perform();
-                takeScreenshot("STK_2363/STK_2363-2473_BottomRowOfLendingCoins");
+                takeScreenshot("STK-2363/STK-2363-2473_BottomRowOfLendingCoins");
             }
         }
     }

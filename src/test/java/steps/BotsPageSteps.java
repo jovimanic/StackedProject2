@@ -44,7 +44,7 @@ public class BotsPageSteps extends CommonMethods {
                 }
             }
         }
-        takeScreenshot("STK_2367/STK_2367_BotsTab");
+        takeScreenshot("STK-2367/STK-2367_BotsTab");
     }
 
     @When("a user clicks on all of the bot Set up buttons, the bot set up page displays with data :")
@@ -79,9 +79,9 @@ public class BotsPageSteps extends CommonMethods {
             String takeProfit = botSetUpPageDataTable.get(9);
             Assert.assertEquals(basicSettings, botsPage.basicSettingsHeaderText.getText().trim());
             //taking screenshot of all bot Set up pages
-            takeScreenshot("STK_2367/STK_2367_BotsSetUpPageTop" + bot);
+            takeScreenshot("STK-2367/STK-2367_BotsSetUpPageTop" + bot);
             JavascriptUtils.jsScrollDown(1000);
-            takeScreenshot("STK_2367/STK_2367_BotsSetUpPageBottom" + bot);
+            takeScreenshot("STK-2367/STK-2367_BotsSetUpPageBottom" + bot);
             Assert.assertEquals(riskManagement, botsPage.riskManagementHeaderText.getText().trim());
             Assert.assertEquals(tradeManagement, botsPage.tradeManagementHeaderText.getText().trim());
             Assert.assertEquals(selectExchange, botsPage.selectExchangeText.getText().trim());
@@ -108,7 +108,7 @@ public class BotsPageSteps extends CommonMethods {
     @Then("a user is navigated to the Bots page and is able to view all bots available")
     public void a_user_is_navigated_to_the_Bots_page_and_is_able_to_view_all_bots_available() throws IOException {
         waitForVisibility(botsPage.automateYourInvestmentsWithBotsText);
-        takeScreenshot("STK_2367/STK_2367_BotsPage");
+        takeScreenshot("STK-2367/STK-2367_BotsPage");
         Assert.assertEquals(BOTS_PAGE_HEADER, driver.getTitle());
     }
 }

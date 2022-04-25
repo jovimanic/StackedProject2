@@ -17,6 +17,41 @@ public class Constants {
     public static final String FAILED_SCENARIO_SCREENSHOT_FILEPATH = System.getProperty("user.dir")+"/screenshots/failed scenarios/";
 
     /**
+     * Strings for Database info
+     */
+    public static final String DATABASE_USERNAME = "stackeduser";
+    public static final String DATABASE_NAME = "stacked";
+    public static final String DATABASE_PASSWORD = "J8oqvLnSgoRexvMW";
+    public static final String DATABASE_PORT = "5432";
+    public static final String DATABASE_HOST = "stacked-aurora-db-postgres-stage.cluster-cfmlxazmsk2p.us-west-2.rds.amazonaws.com";
+    public static final String SSH_TAB = "ec2-54-191-100-11.us-west-2.compute.amazonaws.com";
+    public static final String DATABASE_KEY = "MIIEpQIBAAKCAQEAwJlz9zdPJVbbgcusSDNcuYPF9pQVp1coA2b6ngi9zhKdAd7V\n" +
+            "12NyiBzxr1g9cQ2Cf6n4T+P0/lz2pajPkWfIQ6acit1lnrftbYciIjaHRO90opeK\n" +
+            "Eb8XigIRo9WBS8v208UU8+bzxP9wduYd2IcUvFU1+v6kXcqKbdVJO/48Qy0B3/iN\n" +
+            "PC3wBi5irgAa3yYCSYK0CQune+JPu8I+wweea3ZCBXmRV6P0gpAwfjxesyUkhv7w\n" +
+            "O1XnBt8ZuNTErZ49tFy8vPB3koUuwJ6h8rLLpvUfpTryfn9vu6eoyKfxi23LxBmg\n" +
+            "lnOYnXIJg/XCfYhuGfTVg0Frjk4F9rBHpFBbHwIDAQABAoIBAFy5hFtBBZm0d3nF\n" +
+            "1OvtznaCOoy8PrCSBXGd4oqzKq5Lx8tevRU1i658QN9qXCpRlsJf0mykEw9jMlwP\n" +
+            "Kd+XV5M6Y6N3c7U2V9ijdouCNR27KywcSRzCI1MOK+/0mosjZ3INMEk8p5/wWvTj\n" +
+            "VPsqDZGedJ6ief+tw3edd+SqQdkUvELXXUScGYvH69iK343lq9eZJwgykUr3RlMA\n" +
+            "XU3HPi6V6nytHAvNlWNbS2IIpfmuPgUky98NEWx7LOIXlLfEF97J6GOORpLoszii\n" +
+            "zK4LD024bK2v53xI+Et2bwzfoVk5CWKzfFMiHiA1jasiiQRPhy5mGDw0SbgOqGb4\n" +
+            "f3ZgsgECgYEA3xXV/i8J7ab5j3YbrL+TdKNSeusYUMKyUTh4cITVXTXg9BInVuh1\n" +
+            "UMg9mtFa9Hyh0QU7ky0hpbp3GMO0lQzOITTTnCtSaoaO2J43cgzLXoqaR291M36G\n" +
+            "ycvsHNDlc0YBUGeInjdaL9aPISCUatduVIoE+HnGVqUQdVoKkJJwjfUCgYEA3QQi\n" +
+            "TFuarWhIGyIohMUtWLSv+X7YpjERvHtx6rAjnj26fQ2czXH1xRVRr6kVRuI6LS7q\n" +
+            "sKBvk+opfE5nZovXQRVUn2vJU+rdXJ1KlYnM9wkURPKOAy9Z2CPMuifuxoH22Jrn\n" +
+            "eb/0qSXAyHKRNhmzMPI7Go1GEW+ImHwvh2+Z5EMCgYEArdf3VchURVVsfuZ8NIdq\n" +
+            "Imevu8f+v9ipWu/Vs2FgX+2/qpOHAovN+DDDCSWCaqnA9ADO5ycxZFPFwY+o5sn+\n" +
+            "zBO9n6KG7CqFoLrS3FaqGLeL+IUb4RAFe7Yk/mOvmsAAACdeaGUcK9FY4mjgH85X\n" +
+            "1RtlOjizXgvtonWTbAwiGA0CgYEAm6HemRBkYjmtlNW/3IaQgQdzZ2gIHTcueyAe\n" +
+            "Ppnb6wEiwg6E3TKjUy3JAL46ylhhiRGhl9DR4UGiBvOa4l4UrLLdjQk0kxAu4pms\n" +
+            "PJL1rvtIt6hpkhqU1JuY/XlDLau07CBgYZ5nJXj9QOlUEdmVEiFwtyjGL17vvBiu\n" +
+            "y1st7csCgYEAgXBBVYzf7YaE6zAlwsluzXSWxptInqsnC4foIynhxRyTsHT/o0a2\n" +
+            "/duiGN3KRxDett5uRyEcXlJMlnQLBZIIhlfuEWnxdED90vud7EyTY4OSAH6RdlYj\n" +
+            "lLizvDgYfbKJOzeLme7Bkywq0PCsG/jgTQ5jrIjIGR7fe0jGR9b1UDE=";
+
+    /**
      * integers for wait times in seconds
      */
     public static final int IMPLICIT_WAIT = 60;
